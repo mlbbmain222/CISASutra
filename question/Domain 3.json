@@ -1,0 +1,2134 @@
+{
+  "metadata": {
+    "extracted_at": "2025-04-06T02:18:37.636059",
+    "total_questions": 116,
+    "skipped_questions": 2,
+    "parser": "pdfplumber_enhanced"
+  },
+  "questions": [
+    {
+      "number": 2,
+      "question": "Which of the following BEST helps to prioritize project activities and determine the timeline fbr a project?",
+      "options": {
+        "A": "Gantt chart",
+        "B": "Earned value analysis",
+        "C": "Program evaluation review technique (PERT)",
+        "D": "Function point analysis"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "A Gantt chart is a simple project management tool which typically shows the timeline, status, and\nresponsible person fbr each task in the project. It helps with the prioritization requirement, but it is not as\neffective as program evaluation review technique (PERT).",
+        "B": "Earned value analysis is a technique to track project cost versus project deliverables but does not assist\nin prioritizing tasks. It provides better clarity and control of the activities involved and enables project\nmanagers to respond to issues early.",
+        "C": "The PERT method works on the principle of obtaining project timelines based on project events fbr\nthree likely scenarios~~worst, best and normal. The timeline is calculated by a predefined formula\nand identifies the critical path, which identifies the key activities that must be prioritized.",
+        "D": "Function point analysis is a standardized method used commonly as an estimation technique in software\nengineering. It measures the complexity of input and output and does not help to prioritize project\nactivities."
+      },
+      "page": 1
+    },
+    {
+      "number": 3,
+      "question": "An information systems (IS) auditor reviewing a series of completed projects finds that the implemented\nfunctionality often exceeded requirements and most of the projects ran significantly over budget. Which of\nthese areas of the organization's project management process is the MOST likely cause of this issue?",
+      "options": {
+        "A": "Project scope management",
+        "B": "Project time management",
+        "C": "Project risk management",
+        "D": "Project procurement management"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Because the implemented functionality is greater than what was required, the most likely cause of\nthe budget issue is failure to effectively manage project scope. Project scope management is defined\nas the processes required to ensure that the project includes all of the required work, and only the\nrequired work, to complete the project",
+        "B": "Project time management is defined as the processes required to ensure timely completion of the project.\nThe issue noted in the question does not mention whether projects were completed on time, so this is not\nthe most likely cause.",
+        "C": "Project risk management is defined as the processes concerned with identifying, analyzing and responding\nto project risk. Although the budget overruns mentioned above represent one form of project risk, they\nappear to be caused by implementing too much functionality, which relates more directly to project scope.",
+        "D": "Project procurement management is defined as the processes required to acquire goods and services from\noutside the performing organization. Although purchasing goods and services that are too expensive can\ncause budget overruns, in this case, the key to the question is that implemented functionality is greater\nthan what was required, which is more likely related to project scope.\n182 CIS A ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 1
+    },
+    {
+      "number": 4,
+      "question": "An information systems (IS) auditor is reviewing the software development process for an organization.\nWhich of the following functions are appropriate fbr the end users to perform?",
+      "options": {
+        "A": "Program output testing",
+        "B": "System configuration",
+        "C": "Program logic specification",
+        "D": "Performance tuning"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "A user can test program output by checking the program input and comparing it with the system\noutput. This task, although usually done by the programmer, can also be done effectively by the\nuser",
+        "B": "System configuration is usually too technical to be accomplished by a user and this situation can create\nsecurity issues and introduce a separation of duties issue.",
+        "C": "Program logic specification is a very technical task that is normally performed by a programmer. A user\nperforming this task can introduce a separation of duties issue.",
+        "D": "Performance tuning also requires high levels of technical skill and cannot be effectively accomplished by\na user. A user performing this task can introduce a separation of duties issue."
+      },
+      "page": 2
+    },
+    {
+      "number": 5,
+      "question": "An information systems (IS) auditor is reviewing system development fbr a health care organization with two\napplication environments—production and test. During an interview, the auditor notes that production data are\nused in the test environment to test program changes. What is the MOST significant potential risk from this\nsituation?",
+      "options": {
+        "A": "The test environment may not have adequate controls to ensure data accuracy.",
+        "B": "The test environment may produce inaccurate results due to use of production data.",
+        "C": "Hardware in the test environment may not be identical to the production environment.",
+        "D": "The test environment may not have adequate access controls implemented to ensure data confidentiality."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "The accuracy of data used in the test environment is not of significant concern if these data are\nrepresentative of the production environment.",
+        "B": "Using production data in the test environment does not cause test results to be inaccurate ; it has the\nopposite effect. Using production data improves the accuracy of testing processes, because the data most\nclosely mirrors the production environment. Despite this, the risk of data disclosure or unauthorized\naccess in the test environment is significant; therefore, production data should not be used in the test\nenvironment.",
+        "C": "Hardware in the test environment should mirror the production environment to ensure that testing is\nreliable. However, this does not relate to the risk of using live data in a test environment and is not the\ncorrect answer.",
+        "D": "In many cases, the test environment is not configured with the same access controls that are enabled\nin the production environment For example, programmers may have privileged access to the test\nenvironment (for testing purposes), but not to the production environment. If the test environment\ndoes not have adequate access control, the production data are subject to risk of unauthorized\naccess and/or data disclosure. This is the most significant risk of the choices listed and is especially\nimportant in a health care organization where patient data confidentiality is critical and privacy\nlaws in many countries impose strict penalties on misuse of these data.\nC/SA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 2
+    },
+    {
+      "number": 6,
+      "question": "The information systems (IS) auditor is reviewing a recently completed conversion to a new enterprise\nresource planning system. In the final stage of the conversion process, the organization ran the old and new\nsystems in parallel for 30 days before allowing the new system to run on its own. What is the MOST\nsignificant advantage to the organization by using this strategy?",
+      "options": {
+        "A": "Significant cost savings over other testing approaches",
+        "B": "Assurance that new, faster hardware is compatible with the new system",
+        "C": "Assurance that the new system meets functional requirements",
+        "D": "Increased resiliency during the parallel processing time"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Parallel operation is generally expensive and does not provide a cost savings over most other testing\napproaches. In many cases, parallel operation is the most expensive form of system testing due to the need\nfbr dual data entry, dual sets of hardware, dual maintenance and dual backups. Parallel operation is twice\nthe amount of work as running a production system and, therefore, costs more time and money.",
+        "B": "Hardware compatibility should be determined and tested much earlier in the conversion project and is\nnot an advantage of parallel operation. Compatibility is generally determined based on the application's\npublished specifications and on system testing in a lab environment. Parallel operation is designed\nto test the application's effectiveness and integrity of application data, not hardware compatibility. In\ngeneral, hardware compatibility relates more to the operating system level than to a particular application.\nAlthough new hardware in a system conversion must be tested under a real production load, this can be\ndone without parallel systems.",
+        "C": "Parallel operation provides a high level of assurance that the new system ftinctions properly\ncompared to the old system, and therefore, the new system meets its functional requirements. This\nis the safest form of system conversion testing because, if the new system fails, the old system is\nstill available fbr production use. In addition, this form of testing allows the application developers\nand administrators to simultaneously run operational tasks (e.g., batch jobs and backups) on both\nsystems, to ensure that the new system is reliable before unplugging the old system.",
+        "D": "Increased resiliency during parallel processing is a legitimate outcome from this scenario, but the\nadvantage it provides is temporary and minor, so this is not the correct answer.\n184 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 3
+    },
+    {
+      "number": 7,
+      "question": "What kind of software application testing is considered the final stage of testing and typically includes users\noutside of the development team?",
+      "options": {
+        "A": "Alpha testing",
+        "B": "White box testing",
+        "C": "Regression testing",
+        "D": "Beta testing"
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Alpha testing is the testing stage just before beta testing. Alpha testing is typically performed by\nprogrammers and business analysts, instead of users. Alpha testing is used to identify bugs or glitches that\ncan be fixed before beta testing begins with external users.",
+        "B": "White box testing is performed much earlier in the software development life cycle than alpha or beta\ntesting. White box testing is used to assess the effectiveness of software program logic, where test data\nare used to determine procedural accuracy of the programs being tested. This testing stage determines if\nthe program operates the way it is supposed to at a functional level. White box testing does not typically\ninvolve external users.",
+        "C": "Regression testing is the process of re-running a portion of a test scenario to ensure that changes or\ncorrections have not introduced more errors (i.e., the same tests are run after multiple successive program\nchanges to ensure that the fix for one problem did not break another part of the program). Regression\ntesting is not the last stage of testing and does not typically involve external users.",
+        "D": "Beta testing is the final stage of testing and typically includes users outside of the development area.\nBeta testing is a form of user acceptance testing and generally involves a limited number of users\nwho are external to the development effort"
+      },
+      "page": 4
+    },
+    {
+      "number": 8,
+      "question": "During which phase of software application testing should an organization perform the testing of architectural\ndesign?",
+      "options": {
+        "A": "Acceptance testing",
+        "B": "System testing",
+        "C": "Integration testing",
+        "D": "Unit testing"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Acceptance testing determines whether the solution meets the requirements of the business and is\nperformed after system staff has completed the initial system test. This testing includes quality assurance\ntesting and user acceptance testing, although not combined.",
+        "B": "System testing relates a series of tests by the test team or system maintenance staff to ensure that the\nmodified program interacts correctly with other components. System testing references the functional\nrequirements of the system.",
+        "C": "Integration testing evaluates the connection of two or more components that pass information\nfrom one area to another. The objective is to use unit-tested modules, thus building an integrated\nstructure according to the design.",
+        "D": "Unit testing references the detailed design of the system and uses a set of cases that focus on the control\nstructure of the procedural design to ensure that the internal operation of the program performs according\nto specification.\n185\nC/SA ® Official Questions, Answers & Explanations Manual 13妨 Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 4
+    },
+    {
+      "number": 9,
+      "question": "Which of the following is an advantage of an integrated test facility?",
+      "options": {
+        "A": "It uses actual master files or dummies, and the information systems (IS) auditor does not have to review\nthe source of the transaction.",
+        "B": "Periodic testing does not require separate test processes.",
+        "C": "It validates application systems and ensures the correct operation of the system.",
+        "D": "The need to prepare test data is eliminated."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "The integrated test facility (ITF) tests a test transaction as if it were a real transaction and validates that\ntransaction processing is being done correctly. It is not related to reviewing the source of a transaction.",
+        "B": "An ITF creates a fictitious entity in the database to process test transactions simultaneously with\nlive input. Its advantage is that periodic testing does not require separate test processes. Carefill\nplanning is necessary, and test data must be isolated from production data.",
+        "C": "An ITF does validate the correct operation of a transaction in an application, but it does not ensure that a\nsystem is being operated correctly.",
+        "D": "The ITF is based on the integration of test data into the normal process flow, so test data is still required."
+      },
+      "page": 5
+    },
+    {
+      "number": 10,
+      "question": "An organization is replacing a payroll program that it developed in-house, with the relevant subsystem of a\ncommercial enterprise resource planning (ERP) system. Which of the following represents the HIGHEST\npotential risk?",
+      "options": {
+        "A": "Undocumented approval of some project changes",
+        "B": "Faulty migration of historical data from the old system to the new system",
+        "C": "Incomplete testing of the standard functionality of the ERP subsystem",
+        "D": "Duplication of existing payroll permissions on the new ERP subsystem"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Undocumented changes (leading to scope creep) are a risk, but the greatest risk is the loss of data integrity\nwhen migrating data from the old system to the new system.",
+        "B": "The most significant risk after a payroll system conversion is loss of data integrity resulting in the\norganization being unable to pay employees in a timely and accurate manner Loss of data integrity\ncan also result in incorrect records of past payments. As a result, maintaining data integrity and\naccuracy during migration is paramount.",
+        "C": "A lack of testing is always a risk; however, in this case, the new payroll system is a subsystem of an\nexisting commercially available (and therefore probably well-tested) system.",
+        "D": "Setting up the new system, including access permissions and payroll data, always presents some level of\nrisk; however, the greatest risk is related to the migration of data from the old system to the new system.\n186 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 5
+    },
+    {
+      "number": 11,
+      "question": "An enterprise is developing a strategy to upgrade to a newer version of its database software. Which of the\nfollowing tasks can an information systems (IS) auditor perform without compromising the objectivity of the\nIS audit function?",
+      "options": {
+        "A": "Advise on the adoption of application controls to the new database software.",
+        "B": "Provide future estimates of the licensing expenses to the project team.",
+        "C": "Recommend to the project manager how to improve the efficiency of the migration.",
+        "D": "Review the acceptance test case documentation before the tests are carried out."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Independence can be compromised if the information systems (IS) auditor advises on the adoption of\nspecific application controls.",
+        "B": "Independence can be compromised if the IS auditor were to audit the estimate of future expenses used to\nsupport a business case for management approval of the project.",
+        "C": "Advising the project manager on how to increase the efficiency of the migration may compromise the IS\nauditor's independence.",
+        "D": "The review of the test cases will facilitate the objective of a successful migration and ensure that\nproper testing is conducted. An IS auditor can advise about the completeness of the test cases."
+      },
+      "page": 6
+    },
+    {
+      "number": 12,
+      "question": "During a postimplementation review, which of the following activities should be performed?",
+      "options": {
+        "A": "User acceptance testing (UAT)",
+        "B": "Return on investment (ROI) analysis",
+        "C": "Activation of audit trails",
+        "D": "Updates of the state of enterprise architecture (EA) diagrams"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "User acceptance testing (UAT) supports the process of ensuring that the system is production ready\nand satisfies all documented requirements. User acceptance testing should be performed prior to the\nimplementation (perhaps during the development phase), not after the implementation.",
+        "B": "Following implementation, a cost-benefit analysis or return on investment (ROI) should be\nreperformed to verify that the original business case benefits are delivered and business value\nis created.",
+        "C": "An audit trail is a detailed record of the activities on a database or system. The audit trail should be\nactivated during the implementation of the application, not during the postimplementation review.",
+        "D": "Although updating the enterprise architecture (EA) diagrams is a good practice, it is not normally part of a\npostimplementation review.\n187\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 6
+    },
+    {
+      "number": 13,
+      "question": "Which of the following is the BEST approach to ensure that sufficient test coverage will be achieved fbr a\nproject with a strict end date and a fixed time to perform testing?",
+      "options": {
+        "A": "Requirements should be tested in terms of importance and frequency of use.",
+        "B": "Test coverage should be restricted to functional requirements.",
+        "C": "Automated tests should be performed using scripting.",
+        "D": "The number of required test runs should be reduced by retesting only defect fixes."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "This approach maximizes the usefulness of testing by concentrating on the most important aspects\nof the system and on the areas where defects represent the greatest risk to user acceptance. A\nfurther extension of this approach is to also consider the technical complexity of requirements\nbecause complexity tends to increase the likelihood of defects.",
+        "B": "The problem with testing only functional requirements is that nonfunctional requirement areas, such as\nusability and security, which are important to the overall quality of the system, are ignored.",
+        "C": "Increasing the efficiency of testing by automating test execution is a good idea. However, by itself this\napproach does not ensure the appropriate targeting of test coverage and is not an effective alternative.",
+        "D": "Retesting only defect fixes has a considerable risk that it will not detect instances in which defect fixes\nmay have caused the system to regress (i.e., introduced errors in parts of the system that were previously\nworking correctly). For this reason, it is a good practice to undertake formal regression testing after defect\nfixes have been implemented."
+      },
+      "page": 7
+    },
+    {
+      "number": 14,
+      "question": "By evaluating application development projects against the capability maturity model, an information systems\n(IS) auditor should be able to verify that:",
+      "options": {
+        "A": "reliable products are guaranteed.",
+        "B": "programmers9 efficiency is improved.",
+        "C": "security requirements are designed.",
+        "D": "predictable software processes are followed."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Although the likelihood of success should increase as the software processes mature toward the\noptimizing level, mature processes do not guarantee a reliable product.",
+        "B": "The capability maturity model (CMM) does not evaluate technical processes such as programming\nefficiency.",
+        "C": "The CMM does not evaluate security requirements or other application controls.",
+        "D": "By evaluating the organization's development projects against the CMM, an information systems\n(IS) auditor determines whether the development organization follows a stable, predictable\nsoftware development process.\n188 CIS A ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 7
+    },
+    {
+      "number": 15,
+      "question": "An information systems (IS) auditor is performing a postimplementation review of an organization's system\nand identifies output errors within an accounting application. The IS auditor determines that this was caused\nby input errors. Which of the following controls should the IS auditor recommend to management?",
+      "options": {
+        "A": "Recalculations",
+        "B": "Limit checks",
+        "C": "Run-to-run totals",
+        "D": "Reconciliations"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "A sample of transactions may be recalculated manually to ensure that processing is accomplishing the\nanticipated task. Recalculations are performed after the output phase.",
+        "B": "Processing controls should be implemented as close as possible to the point of data entry. Limit\nchecks are one type of input validation check that provides a preventive control to ensure that\ninvalid data cannot be entered, because values must fall within a predetermined limit.",
+        "C": "Run-to-run totals provide the ability to verify data values through the stages of application processing.\nRun-to-run total verification ensures that data read into the computer are accepted and then applied to the\nupdating process. Run-to-run totals are performed after the output phase.",
+        "D": "Reconciliation of file totals should be performed on a routine basis. Reconciliations may be performed\nthrough the use of a manually maintained account, a file control record or an independent control file.\nReconciliations are performed after the output phase."
+      },
+      "page": 8
+    },
+    {
+      "number": 16,
+      "question": "Due to a reorganization, a business application system will be extended to other departments. Which of the\nfollowing should be of the GREATEST concern for an information systems (IS) auditor?",
+      "options": {
+        "A": "Process owners have not been identified.",
+        "B": "The billing cost allocation method has not been determined.",
+        "C": "Multiple application owners exist.",
+        "D": "A training program does not exist."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "When one application is expanded to multiple departments, it is important to ensure the mapping\nbetween the process owner and system functions. The absence of a defined process owner may cause\nissues with monitoring or authorization controls.",
+        "B": "Cost allocation is the method business owners use to calculate profitability fbr the purpose of financial\nreporting. The billing cost allocation method of application usage is of less importance than identifying\nprocess owners.",
+        "C": "The fact that multiple application owners exist is not a concern for an information systems (IS) auditor if\nprocess owners have been identified, because the process owners are responsible fbr the specific process.",
+        "D": "The lack of a training program is only a minor concern fbr the IS auditor.\n189\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 8
+    },
+    {
+      "number": 17,
+      "question": "When auditing the proposed acquisition of a new computer system, an information systems (IS) auditor\nshould FIRST ensure that:",
+      "options": {
+        "A": "a clear business case has been approved by management.",
+        "B": "corporate security standards will be met.",
+        "C": "users will be involved in the implementation plan.",
+        "D": "the new system will meet all required user functionality."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "The first concern of an information systems (IS) auditor is to ensure that the proposal meets the\nneeds of the business. This should be established by a clear business case.",
+        "B": "Compliance with security standards is essential, but it is too early in the procurement process for this to be\nan IS auditor's first concern.",
+        "C": "Having users involved in the implementation process is essential, but it is too early in the procurement\nprocess fbr this to be an IS auditor's first concern.",
+        "D": "Meeting the needs of the users is essential, and this should be included in the business case presented to\nmanagement fbr approval."
+      },
+      "page": 9
+    },
+    {
+      "number": 18,
+      "question": "Which of the following types of risk is MOST likely encountered in a software as a service (SaaS)\nenvironment?",
+      "options": {
+        "A": "Noncompliance with software license agreements",
+        "B": "Performance issues due to Internet delivery method",
+        "C": "Higher cost due to software licensing requirements",
+        "D": "Higher cost due to the need to update to compatible hardware"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Software as a service (SaaS) is provisioned on a usage basis and the number of users is monitored by the\nSaaS provider; therefore, there should be no risk of noncompliance with software license agreements.",
+        "B": "The risk that can be most likely encountered in a SaaS environment is speed and availability issues\nbecause SaaS relies on the Internet fbr connectivity.",
+        "C": "The costs for a SaaS solution should be fixed as a part of the services contract and considered in the\nbusiness case presented to management fbr approval of the solution.",
+        "D": "The open design and Internet connectivity allow most SaaS to run on any type of hardware.\n190 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 9
+    },
+    {
+      "number": 19,
+      "question": "The most common reason for the failure of information systems to meet the needs of users is that:",
+      "options": {
+        "A": "user needs are constantly changing.",
+        "B": "the growth of system requirements was forecast inaccurately.",
+        "C": "the hardware system limits the number of concurrent users.",
+        "D": "user participation in defining the system's requirements was inadequate."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Although changing user needs influences the success or failure of many projects, the core problem is\nusually alack of getting the initial requirements correct at the beginning of the project.",
+        "B": "Projects may fail as the needs of the users increase; however, this can be mitigated through better change\ncontrol procedures.",
+        "C": "Rarely do hardware limitations affect the usability of the project if the requirements were correctly\ndocumented at the beginning of the project.",
+        "D": "Lack of adequate user involvement, especially in the system's requirements phase, usually results in\na system that does not fully or adequately address the needs of the user. Only users can define what\ntheir needs are and, therefore, what the system should accomplish."
+      },
+      "page": 10
+    },
+    {
+      "number": 20,
+      "question": "Many IT projects experience problems because the development time and/or resource requirements are\nunderestimated. Which of the following techniques provides the GREATEST assistance in developing an\nestimate of project duration?",
+      "options": {
+        "A": "Function point analysis",
+        "B": "Program evaluation review technique (PERT) chart",
+        "C": "Rapid application development",
+        "D": "Object-oriented system development"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Function point analysis is a technique fbr determining the size of a development task based on the number\nof function points. Function points are factors such as inputs, outputs, inquiries and logical internal files.\nAlthough this helps determine the size of individual activities, it does not assist in determining project\nduration, because there are many overlapping tasks.",
+        "B": "The program evaluation review technique (PERT) method works on the principle of obtaining\nproject timelines based on project events for three likely scenarios—worst, best and normal. The\ntimeline is calculated by a predefined formula and identifies the critical path, which identifies the\nkey activities that must be prioritized. A PERT chart helps determine project duration after all the\nactivities and the work involved with those activities are known.",
+        "C": "Rapid application development is a methodology that enables organizations to develop strategically\nimportant systems faster, while reducing development costs and maintaining quality.",
+        "D": "Object-oriented design is an approach to systems development that proposes the use of system objects\nto build new systems and rebuild old ones. An important goal of object-oriented development is to\nchange the nature of traditional software development from designing and writing models from scratch to\nbuilding systems through the assembly of reusable software objects. Object-oriented system development\nis the process of solution specification and modeling but does not assist in calculating project duration.\n191\nCISA ® Official Questions, Answers & Explanations Manual 13妨 Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 10
+    },
+    {
+      "number": 21,
+      "question": "An information systems (IS) auditor is reviewing IT projects for a large enterprise and wants to determine\nwhether the IT projects undertaken in a given year are those which have been assigned the highest priority by\nthe business and which will generate the greatest business value. Which of the following is MOST relevant?",
+      "options": {
+        "A": "Capability maturity model (CMM)",
+        "B": "Portfolio management",
+        "C": "Configuration management",
+        "D": "Project management body of knowledge"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "A capability maturity model (CMM) is a means of assessing the relative maturity of the IT processes\nwithin an organization, running from Level 0 (Incomplete~processes are not implemented or fail to\nachieve their purpose) to Level 5 (Optimizing—metrics are defined and measured, and continuous\nimprovement techniques are in place). It does not help determine the optimal portfolio of capital projects,\nbecause it assesses the maturity of the processes.",
+        "B": "Portfolio management is designed to assist in the definition, prioritization, approval and running of\na set of projects within a given organization. These tools offer data capture, workflow and scenario\nplanning functionality, which can help identify the optimum set of projects (from the full set of\nideas) to take forward within a given budget",
+        "C": "A configuration management database, which stores the configuration details for an organization's\nIT systems, is an important tool for IT service delivery and, in particular, change management. A\nconfiguration management database may provide information that would influence the prioritization of\nprojects but is not designed for that purpose.",
+        "D": "The project management body of knowledge is a methodology for the management and delivery of\nprojects. It offers no specific guidance or assistance for optimizing a project portfolio."
+      },
+      "page": 11
+    },
+    {
+      "number": 22,
+      "question": "The reason for establishing a stop or freezing point on the design of a new system is to:",
+      "options": {
+        "A": "prevent further changes to a project in process.",
+        "B": "indicate the point at which the design is to be completed.",
+        "C": "require that changes after that point be evaluated for cost-efifectiveness.",
+        "D": "provide the project management team with more control over the project design."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "The stop point is intended to provide greater control over changes but not to prevent them.",
+        "B": "The stop point is used fbr project control but not to create an artificial fixed point that requires the design\nof the project to cease.",
+        "C": "Projects often tend to expand, especially during the requirements definition phase. This expansion\noften grows to a point where the originally anticipated cost benefits are diminished because the cost\nof the project has increased. When this occurs, it is recommended that the project be stopped or\nfrozen to allow a review of all the cost benefits and the payback period.",
+        "D": "A stop point is used to control requirements, not project design.\n192 CISA ® Official Questions, Answers & Explanations Manual 13比 Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 11
+    },
+    {
+      "number": 23,
+      "question": "Change control for business application systems being developed using prototyping can be complicated by\nthe:",
+      "options": {
+        "A": "iterative nature of prototyping.",
+        "B": "rapid pace of modifications in requirements and design.",
+        "C": "emphasis on reports and screens.",
+        "D": "lack of integrated tools."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "A characteristic of prototyping is its iterative nature, but it does not have an adverse effect on change\ncontrol.",
+        "B": "Changes in requirements and design happen so quickly that they are seldom documented or\napproved.",
+        "C": "A characteristic of prototyping is its emphasis on reports and screens, but it does not have an adverse\neffect on change control.",
+        "D": "Lack of integrated tools is a characteristic of prototyping, but it does not have an adverse effect on change\ncontrol."
+      },
+      "page": 12
+    },
+    {
+      "number": 24,
+      "question": "An information systems (IS) auditor performing a review of a major software development project finds that\nit is on schedule and under budget even though the software developers have worked considerable amounts of\nunplanned overtime. The IS auditor should:",
+      "options": {
+        "A": "conclude that the project is progressing as planned because dates are being met.",
+        "B": "question the project manager further to identify whether overtime costs are being tracked accurately.",
+        "C": "conclude that the programmers are intentionally working slowly to earn extra overtime pay.",
+        "D": "investigate further to determine whether the project plan may not be accurate."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Although the project is on time and budget, there may be problems with the project plan because\nconsiderable amounts of unplanned overtime have been required.",
+        "B": "There is a possibility that the project manager has hidden some costs to make the project look better;\nhowever, the real problem may be with whether the project plan is realistic, not just the accounting.",
+        "C": "It is possible that the programmers are trying to take advantage of the time system, but if the overtime\nhas been required to keep the project on track, it is more likely that the timelines and expectations of the\nproject are unrealistic.",
+        "D": "Although the dates on which key projects are completed are important, there may be issues with\nthe project plan if an extraordinary amount of unplanned overtime is required to meet those dates.\nIn most cases, the project plan is based on a certain number of hours, and requiring programmers\nto work considerable overtime is not a good practice. Although overtime costs may be an indicator\nthat something is wrong with the plan, in many organizations, the programming staff may be\nsalaried, so overtime costs may not be directly recorded.\n193\nC/SA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 12
+    },
+    {
+      "number": 25,
+      "question": "A project development team is considering using production data for its test deck. The team removed sensitive\ndata elements before loading it into the test environment. Which of the following additional concerns should\nan information systems (IS) auditor have with this practice?",
+      "options": {
+        "A": "Not all functionality will be tested.",
+        "B": "Production data are introduced into the test environment.",
+        "C": "Specialized training is required.",
+        "D": "The project may run over budget."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "A primary risk of using production data in a test deck is that not all transactions or functionality\nmay be tested if there are no data that meet the requirement",
+        "B": "The presence of production data in a test environment is not a concern if the sensitive elements have been\nscrubbed.",
+        "C": "Creation of a test deck from production data does not require specialized knowledge, so this is not a\nconcern.",
+        "D": "The risk of a project running over budget is always a concern, but it is not related to the practice of using\nproduction data in a test environment."
+      },
+      "page": 13
+    },
+    {
+      "number": 26,
+      "question": "Which of the following considerations is the MOST important while evaluating a business case for the\nacquisition of a new accounting application?",
+      "options": {
+        "A": "Total cost of ownership of the application",
+        "B": "The resources required for implementation",
+        "C": "Return on investment (ROI) fbr the enterprise",
+        "D": "The cost and complexity of security requirements"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Total cost of ownership of the application is important to understand the resource and budget\nrequirements in the short and long term; however, decisions should be based on benefits realization\nfrom this investment. Therefore, return on investment (ROI) is the most important consideration.",
+        "B": "The resources required for implementation of the application are an important consideration; however,\ndecisions should be based on benefits realization from this investment. Therefore, ROI should be\ncarefully considered.",
+        "C": "The proposed ROI benefits, and targets or metrics that can be measured, are the most important\naspects of a business case. While reviewing the business case, it should be verified that the proposed\nROI is achievable, does not make unreasonable assumptions and can be measured for success.\n(Benefits realization should look beyond project cycles to longer-term cycles that consider the total\nbenefits and total costs throughout the life of the new system.)",
+        "D": "The cost and complexity of security requirements are important considerations, but they need to be\nweighed against the proposed benefits of the application. Therefore, ROI is more important.\n194 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 13
+    },
+    {
+      "number": 27,
+      "question": "The development of an application has been outsourced to an offshore vendor. Which of the following should\nbe of GREATEST concern to an information systems (IS) auditor?",
+      "options": {
+        "A": "The right to audit clause was not included in the contract.",
+        "B": "The business case was not established.",
+        "C": "There was no source code escrow agreement.",
+        "D": "The contract does not cover change management procedures."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "The lack of the right to audit clause presents a risk to the organization; however, the risk is not as\nconsequential as the lack of a business case.",
+        "B": "Because the business case was not established, it is likely that the business rationale, risk and\nrisk mitigation strategies for outsourcing the application development were not fully evaluated and\nthe appropriate information was not provided to senior management for formal approval. This\nsituation presents the biggest risk to the organization.",
+        "C": "If the source code is held by the provider and not provided to the organization, the lack of source code\nescrow presents a risk to the organization; however, the risk is not as consequential as the lack of a\nbusiness case.",
+        "D": "The lack of change management procedures presents a risk to the organization, especially with the\npossibility of extraordinary charges fbr any required changes; however, the risk is not as consequential as\nthe lack of a business case."
+      },
+      "page": 14
+    },
+    {
+      "number": 28,
+      "question": "Before implementing controls in a newly developed system, management should PRIMARILY ensure that\nthe controls:",
+      "options": {
+        "A": "satisfy a requirement in addressing a risk.",
+        "B": "do not reduce productivity.",
+        "C": "are based on a minimized cost analysis.",
+        "D": "are detective or corrective."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "The purpose of a control is to mitigate a risk; therefore, the primary consideration when selecting a\ncontrol is that it effectively mitigates an identified risk. When designing controls, it is necessary to\nconsider all the aspects in the presented options. In an ideal situation, controls that address all these\naspects are the best controls. Realistically, it may not be possible to design them all and the cost may\nbe prohibitive; therefore, it is necessary to consider the controls that are related primarily to the\ntreatment of existing risk in the organization.",
+        "B": "Controls often affect productivity and performance; however, this must be balanced against the benefit\nobtained from the implementation of the control.",
+        "C": "The most important reason for a control is to mitigate a risk—and the selection of a control is usually\nbased on a cost-benefit analysis, not on selecting just the least expensive control.",
+        "D": "A good control environment includes preventive, detective and corrective controls.\n195\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 14
+    },
+    {
+      "number": 29,
+      "question": "Information fbr detecting unauthorized input from a user workstation is BEST provided by the:",
+      "options": {
+        "A": "console log printout.",
+        "B": "transaction journal.",
+        "C": "automated suspense file listing.",
+        "D": "user error report."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "A console log printout is not the best source because it does not record activity from a specific terminal.",
+        "B": "The transaction journal records all transaction activity, which then can be compared to the\nauthorized source documents to identify any unauthorized input.",
+        "C": "An automated suspense file listing lists only transaction activity where an edit error occurred.",
+        "D": "The user error report lists only input that resulted in an edit error and does not record improper user input."
+      },
+      "page": 15
+    },
+    {
+      "number": 30,
+      "question": "Which of the following has the MOST significant impact on the success of an application system\nimplementation?",
+      "options": {
+        "A": "Prototyping application development methodology",
+        "B": "Compliance with applicable external requirements",
+        "C": "Overall organizational environment",
+        "D": "Software reengineering technique"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "The prototyping application development technique reduces the time to deploy systems primarily by using\nfaster development tools that allow a user to see a high-level view of the workings of the proposed system\nwithin a short period of time. The use of any one development methodology has a limited impact on the\nsuccess of the project.",
+        "B": "Compliance with applicable external requirements has an impact on the implementation success, but the\nimpact is not as significant as the impact of the overall organizational environment.",
+        "C": "The overall organizational environment has the most significant impact on the success of\napplication systems implemented. This includes the alignment between IT and the business, the\nmaturity of the development processes and the use of change control and other project management\ntools.",
+        "D": "The software reengineering technique is a process of updating an existing system by extracting and\nreusing design and program components. This is used to support major changes in the way an\norganization operates. Its impact on the success of the application systems that are implemented is small\ncompared with the impact of the overall organizational environment.\n196 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 15
+    },
+    {
+      "number": 31,
+      "question": "The editing/validation of data entered ata remote site is performed MOST effectively at the:",
+      "options": {
+        "A": "central processing site after running the application system.",
+        "B": "central processing site during the running of the application system.",
+        "C": "remote processing site after transmission of the data to the central processing site.",
+        "D": "remote processing site prior to transmission of the data to the central processing site."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Due to the risk of errors being introduced during transmission to the central processing site, it is a good\npractice to re-validate the data after receiving them at the central processing site. However, this is not the\nmost efficient method, because invalid data could have been transmitted and processed.",
+        "B": "Due to the risk of errors being introduced during transmission to the central processing site, it is a good\npractice to re-validate the data after receiving them at the central processing site. However, this is not the\nmost efficient method, because invalid data could have been transmitted and processed at the central site.",
+        "C": "To validate the data after they have been transmitted is not a valid control.",
+        "D": "It is important that the data entered from a remote site are edited and validated prior to\ntransmission to the central processing site."
+      },
+      "page": 16
+    },
+    {
+      "number": 32,
+      "question": "The MAJOR consideration fbr an information systems (IS) auditor reviewing an organization's IT project\nportfolio is the:",
+      "options": {
+        "A": "IT budget.",
+        "B": "existing IT environment.",
+        "C": "business plan.",
+        "D": "investment plan."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "The IT budget is important to ensure that the resources are being used in the best manner, but this is\nsecondary to the importance of reviewing the business plan.",
+        "B": "The existing IT environment is important and used to determine gap analysis but is secondary to the\nimportance of reviewing the business plan.",
+        "C": "One of the most important determining factors for which projects get funded is how well a\nproject meets an organization's strategic objectives. Portfolio management takes a holistic view\nof a company's overall IT strategy. IT strategy should be aligned with the business strategy and,\nhence, reviewing the business plan should be the major consideration.",
+        "D": "The investment plan is important to set out project priorities, but secondary to the importance of\nreviewing the business plan.\n197\nC/SA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 16
+    },
+    {
+      "number": 33,
+      "question": "Regression testing is undertaken PRIMARILY to ensure that:",
+      "options": {
+        "A": "system functionality meets customer requirements.",
+        "B": "a new system can operate in the target environment.",
+        "C": "applicable development standards have been maintained.",
+        "D": "applied changes have not introduced new errors."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Validation testing is used to test the functionality of the system against detailed requirements to ensure\nthat software construction is traceable to customer requirements.",
+        "B": "Sociability testing is used to see whether the system can operate in the target environment without adverse\nimpacts on the existing systems.",
+        "C": "Software quality assurance and code reviews are used to determine whether development standards are\nmaintained.",
+        "D": "Regression testing is used to test for the introduction of new errors in the system after changes have\nbeen applied."
+      },
+      "page": 17
+    },
+    {
+      "number": 34,
+      "question": "A proposed transaction processing application will have many data capture sources and outputs in paper and\nelectronic form. To ensure that transactions are not lost during processing, an information systems (IS) auditor\nshould recommend the inclusion of:",
+      "options": {
+        "A": "validation controls.",
+        "B": "internal credibility checks.",
+        "C": "clerical control procedures.",
+        "D": "automated systems balancing."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Validation controls can check fbr required fields, format and type of data, and other criteria that must\nbe met before the data can be submitted to the server. This helps ensure that the data is accurate and\ncomplete and that the application can process them correctly. Input and output validation controls are,\ntherefore, valid controls but do not detect and report lost transactions.",
+        "B": "Internal credibility checks are valid controls to detect errors in processing but do not detect and report lost\ntransactions.",
+        "C": "A clerical procedure can be used to summarize and compare inputs and outputs; however, an automated\nprocess is less susceptible to error.",
+        "D": "Automated systems balancing is the best way to ensure that no transactions are lost because any\nimbalance between total inputs and total outputs is reported for investigation and correction.\n198 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 17
+    },
+    {
+      "number": 35,
+      "question": "Which of the following should be an information systems (IS) auditor's PRIMARY concern after discovering\nthat the scope of an IS project has changed and an impact study has not been performed?",
+      "options": {
+        "A": "Time and cost implications caused by the change",
+        "B": "Risk that regression tests will fail",
+        "C": "Users not agreeing with the change",
+        "D": "Project team not having the skills to make the necessary change"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Any scope change might have an impact on the duration and cost of the project; that is the reason\nwhy an impact study is conducted and the client is informed of the potential impact on the schedule\nand cost.",
+        "B": "A change in scope does not necessarily impact the risk that regression tests will fail.",
+        "C": "An impact study does not determine whether users will agree with a change in scope.",
+        "D": "Conducting an impact study can identify a lack of resources, such as the project team lacking the skills\nnecessary to make the change; however, this is only part of the impact on the overall timelines and cost to\nthe project due to the change."
+      },
+      "page": 18
+    },
+    {
+      "number": 36,
+      "question": "An information systems (IS) auditor is reviewing the software development capabilities of an organization\nthat has adopted the agile methodology. The IS auditor would be the MOST concerned if:",
+      "options": {
+        "A": "certain project iterations produce proo。。仁concept deliverables and unfinished code.",
+        "B": "application features and development processes are not extensively documented.",
+        "C": "software development teams continually re-plan each step of their major projects.",
+        "D": "project managers do not manage project resources, leaving that to project team members."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "The agile software development methodology is an iterative process where each iteration (sprint)\nproduces functional code. If a development team is producing code for demonstration purposes, this\nis an issue because the following iterations of the project build on the code developed in the prior\nsprint.",
+        "B": "One fbcus of agile methodology is to rely more on team knowledge and produce functional code quickly.\nThese characteristics result in less extensive documentation or documentation embedded in the code\nitself.",
+        "C": "After each sprint, agile development teams re-plan the project so that unfinished tasks are performed\nand resources can be reallocated as needed. The continual re-planning is a key component of agile\ndevelopment methodology.",
+        "D": "The management of agile software development is different from conventional development approaches\nin that leaders act as facilitators and allow team members to determine how to manage their own\nresources to get each sprint completed. Because the team members are performing the work, they are in a\ngood position to understand how much time/effbrt is required to complete a sprint.\n199\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 18
+    },
+    {
+      "number": 37,
+      "question": "Which of the following data validation edits is effective in detecting transposition and transcription errors?",
+      "options": {
+        "A": "Range check",
+        "B": "Check digit",
+        "C": "Validity check",
+        "D": "Duplicate check"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "A range check is checking data that matches a predetermined range of allowable values.",
+        "B": "A check digit is a numeric value that is calculated mathematically and is appended to data to ensure\nthat the original data have not been altered (e.g., an incorrect, but valid, value substituted for the\noriginal). This control is effective in detecting transposition and transcription errors.",
+        "C": "A validity check is programmed checking of the data validity in accordance with predetermined criteria.",
+        "D": "In a duplicate check, new or fresh transactions are matched to those previously entered to ensure that they\nare not already in the system."
+      },
+      "page": 19
+    },
+    {
+      "number": 38,
+      "question": "Two months after a major application implementation, management, which assumes that the project went\nwell, requests that an information systems (IS) auditor perform a review of the completed project. The IS\nauditor's PRIMARY focus should be to:",
+      "options": {
+        "A": "determine whether user feedback on the system has been documented.",
+        "B": "assess whether the planned cost benefits are being measured, analyzed and reported.",
+        "C": "review controls built into the system to assure that they are operating as designed.",
+        "D": "review subsequent program change requests."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "The information systems (IS) auditor should check whether user feedback has been provided, but this is\nnot the most important area for audit.",
+        "B": "It is important to assess the effectiveness of the project; however, assuring that the production\nenvironment is adequately controlled after the implementation is of primary concern.",
+        "C": "Because management is assuming that the implementation went well, the primary focus of the\nIS auditor is to test the controls built into the application to assure that they are functioning as\ndesigned.",
+        "D": "Reviewing change requests may be a good idea, but this is more important if the application is perceived\nto have a problem.\n200 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 19
+    },
+    {
+      "number": 39,
+      "question": "Which of the following types of risk can result from inadequate software project baselining?",
+      "options": {
+        "A": "Sign-off delays",
+        "B": "Software integrity violations",
+        "C": "Scope creep",
+        "D": "Inadequate controls"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Sign-off delays may occur due to inadequate software baselining; however, these are most likely caused\nby scope creep.",
+        "B": "Software integrity violations can be caused by hardware or software failures, malicious intrusions, or user\nerrors. Software baselining does not help prevent software integrity violations.",
+        "C": "A software baseline is the cutoff point in the design and development of a system. Beyond this point,\nadditional requirements or modifications to the scope must go through formal, strict procedures for\napproval based on a business cost-benefit analysis. Failure to adequately manage a system through\nbaselining can result in uncontrolled changes in a project's scope and may incur time and budget\noverruns.",
+        "D": "Inadequate controls are most likely present in situations in which information security is not duly\nconsidered from the beginning of system development; they are not a risk that can be adequately\naddressed by software baselining."
+      },
+      "page": 20
+    },
+    {
+      "number": 40,
+      "question": "An organization implemented a distributed accounting system, and the information systems (IS) auditor is\nconducting a post-implementation review to provide assurance of the data integrity controls. Which of the\nfollowing choices should the auditor perform FIRST?",
+      "options": {
+        "A": "Review user access.",
+        "B": "Evaluate the change request process.",
+        "C": "Evaluate the reconciliation controls.",
+        "D": "Review the data flow diagram."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "The review of user access is important; however, in terms of data integrity, it is better to review the data\nflow diagram.",
+        "B": "The lack of an adequate change control process can impact the integrity of the data; however, the system\nshould be documented first to determine whether the transactions flow to other systems.",
+        "C": "Evaluating the reconciliation controls helps to ensure data integrity; however, it is more important to\nunderstand the data flows of the application to ensure that the reconciliation controls are located in the\ncorrect place.",
+        "D": "The information systems (IS) auditor should review the application data flow diagram to\nunderstand the flow of data within the application and to other systems. This will enable the IS\nauditor to evaluate the design and effectiveness of the data integrity controls.\n201\nCISA ® Official Questions, Answers & Explanations Manuall3th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 20
+    },
+    {
+      "number": 41,
+      "question": "During the audit of an acquired software package, an information systems (IS) auditor finds that the software\npurchase was based on information obtained through the Internet, rather than from responses to a request for\nproposal. The IS auditor should FIRST:",
+      "options": {
+        "A": "test the software fbr compatibility with existing hardware.",
+        "B": "perform a gap analysis.",
+        "C": "review the licensing policy.",
+        "D": "ensure that the procedure had been approved."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Because the software package has already been acquired, it is most likely that it is in use and, therefore,\ncompatible with existing hardware. Further, the first responsibility of the information systems (IS) auditor\nis to ensure that the purchasing procedures have been approved.",
+        "B": "Because there was no request fbr proposal, there may be no documentation of the expectations of the\nproduct and nothing against which to measure a gap. The first task fbr the IS auditor is to ensure that the\npurchasing procedures were approved.",
+        "C": "The licensing policy should be reviewed to ensure proper licensing but only after the purchasing\nprocedures are checked.",
+        "D": "In the case of a deviation from the predefined procedures, an IS auditor should first ensure that\nthe procedure followed fbr acquiring the software is consistent with the business objectives and has\nbeen approved by the appropriate authorities."
+      },
+      "page": 21
+    },
+    {
+      "number": 42,
+      "question": "A failure discovered in which of the following testing stages would have the GREATEST impact on the\nimplementation of new application software?",
+      "options": {
+        "A": "System testing",
+        "B": "Acceptance testing",
+        "C": "Integration testing",
+        "D": "Unit testing"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "System testing is undertaken by the development team to determine if the combined units of software\nwork together and that the software meets user requirements per specifications. A failure here is\nexpensive but easier to fix than a failure found later in the testing process.",
+        "B": "Acceptance testing is the final stage before the software is installed and available fbr use. Software\nfailure at the acceptance testing level has the greatest impact on implementation because this can\nresult in delays and cost overruns.",
+        "C": "Integration testing examines the units/modules as one integrated system. A failure here is expensive and\nrequires re-work of the modules but is not as expensive as a problem found just prior to implementation.",
+        "D": "Unit testing examines the individual units or components of the software. A failure here is expensive and\nrequires re-work of the modules but is not as expensive as a problem found just prior to implementation.\nSystem, integration and unit testing are all performed by the developers at various stages of development;\nthe impact of failure is comparatively less fbr each than failure at the acceptance testing stage.\n202 CISA ® Official Questions, Answers & Explanations Manual 13比 Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 21
+    },
+    {
+      "number": 43,
+      "question": "Which of the following is the MOST likely benefit of implementing a standardized infrastructure?",
+      "options": {
+        "A": "Improved cost-effectiveness of IT service delivery and operational support",
+        "B": "Increased security of the IT service delivery center",
+        "C": "Reduced level of investment in the IT infrastructure",
+        "D": "Reduced need fbr testing future application changes"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "A standardized IT infrastructure provides a consistent set of platforms and operating systems\nacross the organization. This standardization reduces the time and effort required to manage a\nset of disparate platforms and operating systems. In addition, the implementation of enhanced\noperational support tools (e.g., password management tools, patch management tools and auto\nprovisioning of user access) is simplified. These tools can help the organization reduce the cost of IT\nservice delivery and operational support",
+        "B": "A standardized infrastructure results in a more homogeneous environment, which is more prone to\nattacks.",
+        "C": "While standardization can reduce support costs, the transition to a standardized kit can be expensive;\ntherefore, the overall level of IT infrastructure investment is not likely to be reduced.",
+        "D": "A standardized infrastructure may simplify testing of changes, but it does not reduce the need for such\ntesting."
+      },
+      "page": 22
+    },
+    {
+      "number": 45,
+      "question": "Ideally, stress testing should be carried out in a:",
+      "options": {
+        "A": "test environment using test data.",
+        "B": "production environment using live workloads.",
+        "C": "test environment using live workloads.",
+        "D": "production environment using test data."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "A test environment should always be used to avoid damaging the production environment, but testing\nonly with test data may not test all aspects of the system adequately.",
+        "B": "Testing should never take place in a production environment.",
+        "C": "Stress testing is carried out to ensure that a system can cope with production workloads. Testing\nwith production-level workloads is important to ensure that the system will operate effectively when\nmoved into production.",
+        "D": "It is not advisable to do stress testing in a production environment. Additionally, if only test data are used,\nthere is no certainty that the system was stress tested adequately."
+      },
+      "page": 23
+    },
+    {
+      "number": 46,
+      "question": "Assignment of process ownership is essential in system development projects because it:",
+      "options": {
+        "A": "enables the tracking of the development completion percentage.",
+        "B": "optimizes the design cost of user acceptance test cases.",
+        "C": "minimizes the gaps between requirements and functionalities.",
+        "D": "ensures that system design is based on business needs."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Process ownership assignment does not have a feature to track the completion percentage of deliverables.",
+        "B": "Whether the design cost of test cases will be optimized is not determined from the assignment of process\nownership. It may help to some extent; however, there are many other factors involved in the design of\ntest cases.",
+        "C": "For gap minimization, a specific requirements analysis framework should be in place and then applied;\nhowever, a gap may be found between the design and the as-built system that can lead to system\nfunctionality not meeting requirements. This will be identified during user acceptance testing. Process\nownership alone does not have the capability to minimize requirement gaps.",
+        "D": "The involvement of process owners ensures that the system will be designed according to the needs\nof the business processes that depend on system functionality. A sign-off on the design by the\nprocess owners is crucial before development begins.\n204 CISA ® Official Questions, Answers & Explanations Manuall3th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 23
+    },
+    {
+      "number": 47,
+      "question": "The BEST time for an information systems (IS) auditor to assess the control specifications of a new\napplication software package that is being considered fbr acquisition is during:",
+      "options": {
+        "A": "the internal lab testing phase.",
+        "B": "testing and prior to user acceptance.",
+        "C": "the requirements gathering phase.",
+        "D": "the implementation phase."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "During testing, the information systems (IS) auditor ensures that the security requirements are met. This is\nnot the time to assess the control specifications.",
+        "B": "The control specifications drive the security requirements that are built into the contract and should be\nassessed before the product is acquired and tested.",
+        "C": "The best time for the involvement of an IS auditor is at the beginning of the requirements definition\nof the development or acquisition of applications software, providing maximum opportunity for\nreview of the vendors and their products. Early engagement of an IS auditor also minimizes the\npotential of a business commitment to a given solution that might be inadequate and more difficult\nto overcome as the process continues.",
+        "D": "During the implementation phase, the IS auditor may check whether the controls have been enabled;\nhowever, this is not the time to assess the control requirements."
+      },
+      "page": 24
+    },
+    {
+      "number": 48,
+      "question": "The phases and deliverables of a system development life cycle project should be determined:",
+      "options": {
+        "A": "during the initial planning stages of the project.",
+        "B": "after early planning has been completed but before work has begun.",
+        "C": "throughout the work stages, based on risk and exposures.",
+        "D": "only after all risk and exposures have been identified and the information systems (IS) auditor has"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "It is extremely important that the project is planned properly and that the specific phases and\ndeliverables are identified during the early stages of the project. This enables project tracking and\nresource management.",
+        "B": "Determining the deliverables and timelines of a project are a part of the early project planning work.",
+        "C": "The requirements may change over the life of a project, but the initial deliverables should be documented\nfrom the beginning of the project.",
+        "D": "Risk management is a never-ending process, so project planning cannot wait until all risk has been\nidentified.\n205\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 24
+    },
+    {
+      "number": 49,
+      "question": "Management observed that the initial phase of a multiphase implementation was behind schedule and\nover budget. Prior to commencing with the next phase, an information systems (IS) auditor's PRIMARY\nsuggestion fbr a postimplementation fbcus should be to:",
+      "options": {
+        "A": "assess whether the planned cost benefits are being measured, analyzed and reported.",
+        "B": "review control balances and verify that the system is processing data accurately.",
+        "C": "review the impact of program changes made during the first phase on the remainder of the project.",
+        "D": "determine whether the system's objectives were achieved."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "While all choices are valid, the postimplementation focus and primary objective should be understanding\nthe impact of the problems in the first phase on the remainder of the project.",
+        "B": "The review should assess whether the control is working correctly but should focus on the problems that\nled to project overruns in budget and time.",
+        "C": "Because management is aware that the project had problems, reviewing the subsequent impact\nprovides insight into the types and potential causes of the project issues. This insight helps to\nidentify whether IT has adequately planned fbr those issues in subsequent projects.",
+        "D": "Ensuring that the system works is a primary objective for the information systems (IS) auditor, but, in this\ncase, because the project planning was a failure, the IS auditor should fbcus on the reasons fbr, and impact\nof, the failure."
+      },
+      "page": 25
+    },
+    {
+      "number": 50,
+      "question": "When implementing an application software package, which of the following presents the GREATEST risk?",
+      "options": {
+        "A": "Uncontrolled multiple software versions",
+        "B": "Source programs that are not synchronized with object code",
+        "C": "Incorrectly set parameters",
+        "D": "Programming errors"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Having multiple versions is a problem, but if the correct version is implemented, the most serious risk\nduring implementation is to have the parameters fbr the program set incorrectly.",
+        "B": "Lack of synchronization between source and object code is a serious risk fbr later maintenance of\ncompiled programs but does not affect other types of programs and is not the most serious risk at the time\nof implementation.",
+        "C": "Parameters that are not set correctly is the greatest concern when implementing an application\nsoftware package. Incorrectly set parameters are an immediate problem that can lead to system\nbreach, failure or noncompliance.",
+        "D": "Programming errors should be found during testing, not at the time of implementation.\n206 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 25
+    },
+    {
+      "number": 51,
+      "question": "Which of the following is an advantage of prototyping?",
+      "options": {
+        "A": "The finished system normally has strong internal controls.",
+        "B": "Prototype systems can provide significant time and cost savings.",
+        "C": "Change control is often less complicated with prototype systems.",
+        "D": "Prototyping ensures that functions or extras are not added to the intended system."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Prototyping often has poor internal controls because the focus is primarily on functionality, not on\nsecurity.",
+        "B": "Prototype systems can provide significant time and cost savings through better user interaction\nand the ability to rapidly adapt to changing requirements; however, they also have several\ndisadvantages, including loss of overall security focus, project oversight and implementation of\na prototype that is not yet ready fbr production.",
+        "C": "Change control becomes much more complicated with prototyping.",
+        "D": "Prototyping often leads to functions or extras being added to the system that were not originally intended."
+      },
+      "page": 26
+    },
+    {
+      "number": 52,
+      "question": "The PRIMARY objective of performing a postincident review is that it presents an opportunity to:",
+      "options": {
+        "A": "improve the internal control process.",
+        "B": "harden the network to industry good practices.",
+        "C": "highlight the importance of incident response management to management.",
+        "D": "improve employee awareness of the incident response process."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "A postincident review examines the cause and response to an incident. The lessons learned from\nthe review can be used to improve internal controls. Understanding the purpose and structure\nof postincident reviews and follow-up procedures enables the information security manager to\ncontinuously improve the security program. Improving the incident response plan based on the\nincident review is an internal (corrective) control.",
+        "B": "A postincident review may result in improvements to controls, but its primary purpose is not to harden a\nnetwork.",
+        "C": "The purpose of postincident review is to ensure that the opportunity is presented to learn lessons from the\nincident. It is not intended as a fbrum to educate management.",
+        "D": "An incident may be used to emphasize the importance of incident response, but that is not the intention of\nthe postincident review.\n207\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 26
+    },
+    {
+      "number": 53,
+      "question": "An advantage of using sanitized live transactions fbr test data is that:",
+      "options": {
+        "A": "all transaction types are included.",
+        "B": "every error condition is likely to be tested.",
+        "C": "no special routines are required to assess the results.",
+        "D": "test transactions are representative of live processing."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Sanitized production data may not contain all transaction types. The test data may need to be modified to\nensure that all data types are represented.",
+        "B": "Not all error types are sure to be tested because most production data only contains certain types of errors.",
+        "C": "The results can be tested using normal routines, but that is not a significant advantage of using sanitized\nlive data.",
+        "D": "Test data is representative of live processing; however, it is important that all sensitive information\nin the live transaction file is sanitized to prevent improper data disclosure."
+      },
+      "page": 27
+    },
+    {
+      "number": 54,
+      "question": "An information systems (IS) auditor's PRIMARY concern when application developers wish to use a copy of\nyesterday's production transaction file fbr volume tests is that:",
+      "options": {
+        "A": "users may prefer to use contrived data for testing.",
+        "B": "unauthorized access to sensitive data may result.",
+        "C": "error handling and credibility checks may not be fully proven.",
+        "D": "the full functionality of the new process may not necessarily be tested."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Production data are easier fbr users to use for comparison purposes.",
+        "B": "Unless the data are sanitized, there is a risk of disclosing sensitive data.",
+        "C": "There is a risk that former production data may not test all error routines; however, this is not as serious as\nthe risk of release of sensitive data.",
+        "D": "Using a copy of production data may not test all functionality, but this is not as serious as the risk of\ndisclosure of sensitive data."
+      },
+      "page": 27
+    },
+    {
+      "number": 55,
+      "question": "Which of the following is the PRIMARY purpose fbr conducting parallel testing?",
+      "options": {
+        "A": "To determine whether the system is cost-effective",
+        "B": "To enable comprehensive unit and system testing",
+        "C": "To highlight errors in the program interfaces with files",
+        "D": "To ensure the new system meets user requirements"
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Parallel testing may show that the old system is more cost-effective than the new system, but this is not\nthe primary reason for parallel testing.",
+        "B": "Unit and system testing are completed before parallel testing.",
+        "C": "Program interfaces with files are tested for errors during system testing.\nD・ The purpose of parallel testing is to ensure that the implementation of a new system will meet user\nrequirements by comparing the results of the old system with the new system to ensure correct\nprocessing.\nCISA ® Official Questions, Answers & Explanations Manual 13比 Edition\n©ISACA. All Rights Reserved.",
+        "D": "No explanation available"
+      },
+      "page": 27
+    },
+    {
+      "number": 56,
+      "question": "The knowledge base of an expert system that uses questionnaires to lead the user through a series of choices\nbefore a conclusion is reached is known as:",
+      "options": {
+        "A": "rules.",
+        "B": "decision trees.",
+        "C": "semantic nets.",
+        "D": "dataflow diagrams."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Rules refer to the expression of declarative knowledge using i仁then relationships.",
+        "B": "Decision trees use questionnaires to lead a user through a series of choices until a conclusion is\nreached.",
+        "C": "Semantic nets consist of a graph in which nodes represent physical or conceptual objects and the arcs\ndescribe the relationship between the nodes.",
+        "D": "A dataflow diagram is used to map the progress of data through a system and examine logic, error\nhandling and data management."
+      },
+      "page": 28
+    },
+    {
+      "number": 57,
+      "question": "An advantage of using a bottom-up versus a top-down approach to software testing is that:",
+      "options": {
+        "A": "interface errors are detected earlier.",
+        "B": "confidence in the system is achieved earlier.",
+        "C": "errors in critical modules are detected earlier.",
+        "D": "major functions and processing are tested earlier."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Interface errors will not be found until later in the testing process—during integration or system testing.",
+        "B": "Confidence in the system cannot be obtained until the testing is completed.",
+        "C": "The bottom-up approach to software testing begins with the testing of atomic units, such as\nprograms and modules, and works upward until complete system testing has taken place. The\nadvantage of using a bottom-up approach to software testing is that errors in critical modules are\nfound earlier",
+        "D": "Bottom-up testing tests individual components and major functions and processing is not adequately\ntested until systems and integration testing is completed.\n209\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 28
+    },
+    {
+      "number": 58,
+      "question": "During which of the following phases in system development are user acceptance testing (UAT) plans\nnormally prepared?",
+      "options": {
+        "A": "Feasibility study",
+        "B": "Requirements definition",
+        "C": "Implementation planning",
+        "D": "Postimplementation review"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "The feasibility study is too early for such detailed user involvement.",
+        "B": "During requirements definition, the project team works with the users to define their precise\nobjectives and functional needs. The users should be working with the team to consider and\ndocument how the system functionality can be tested to ensure that it meets their stated needs.\nAn information systems (IS) auditor should know at what point user testing should be planned to\nensure that it is most effective and efficient",
+        "C": "The implementation planning phase is when the tests are conducted. It is too late in the process to develop\nthe test plan.",
+        "D": "User acceptance testing (UAT) should be completed prior to implementation."
+      },
+      "page": 29
+    },
+    {
+      "number": 59,
+      "question": "The use of object-oriented design and development techniques MOST likely:",
+      "options": {
+        "A": "facilitates the ability to reuse modules.",
+        "B": "improves system performance.",
+        "C": "enhances control effectiveness.",
+        "D": "speeds up the system development life cycle (SDLC)."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "One of the major benefits of object-oriented design and development is the ability to reuse modules.",
+        "B": "Object-oriented design is not intended as a method of improving system performance.",
+        "C": "Control effectiveness is not an objective of object-oriented design; control effectiveness may be reduced\nthrough this approach.",
+        "D": "The use of object-oriented design may speed up the system development life cycle (SDLC) for future\nprojects through the reuse of modules, but object-oriented design does not speed up development of the\ninitial project.\n210 CIS A ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 29
+    },
+    {
+      "number": 60,
+      "question": "Which of the following should be included in a feasibility study fbr a project to implement an electronic data\ninterchange (EDI) process?",
+      "options": {
+        "A": "Encryption algorithm format",
+        "B": "Detailed internal control procedures",
+        "C": "Necessary communication protocols",
+        "D": "Proposed trusted third-party agreement"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Encryption algorithms are too detailed fbr this phase. They would only be outlined, and any cost or\nperformance implications would be shown.",
+        "B": "Internal control procedures are too detailed for this phase. They would only be outlined, and any cost or\nperformance implications would be shown.",
+        "C": "The communications protocols must be included because there may be significant cost implications\nif new hardware and software are involved, and risk implications if the technology is new to the\norganization.",
+        "D": "Third-party agreements are too detailed fbr this phase. They would only be outlined, and any cost or\nperformance implications would be shown."
+      },
+      "page": 30
+    },
+    {
+      "number": 61,
+      "question": "When a new system is to be implemented within a short time frame, it is MOST important to:",
+      "options": {
+        "A": "finish writing user manuals.",
+        "B": "perform user acceptance testing (UAT).",
+        "C": "add last-minute enhancements to functionalities.",
+        "D": "ensure that the code has been documented and reviewed."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "The completion of the user manuals is less important than the need to test the system adequately.",
+        "B": "It is most important to complete the user acceptance testing to ensure that the system to be\nimplemented is working correctly.",
+        "C": "Adding another enhancement increases the time to complete a project because the code must be frozen\nand testing must be completed, then any other changes as future enhancements must be made.",
+        "D": "It is appropriate to have the code documented and reviewed, but, unless the acceptance testing is\ncompleted, there is no guarantee that the system will work correctly and meet user requirements.\n211\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 30
+    },
+    {
+      "number": 62,
+      "question": "After an organization finishes the business process reengineering (BPR) of all its critical operations, an\ninformation systems (IS) auditor is MOST likely to focus on a review of:",
+      "options": {
+        "A": "pre-business process reengineering (BPR) process flowcharts.",
+        "B": "post-BPR process flowcharts.",
+        "C": "BPR project plans.",
+        "D": "continuous improvement and monitoring plans."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "An information systems (IS) auditor must review the process as it is today, not as it was in the past.",
+        "B": "An IS auditor's task is to identify and ensure that key controls have been incorporated into the\nreengineered process.",
+        "C": "Business process reengineering (BPR) project plans are a step within a BPR project.",
+        "D": "Continuous improvement and monitoring plans are steps within a BPR project."
+      },
+      "page": 31
+    },
+    {
+      "number": 63,
+      "question": "An information systems (IS) auditor finds that a system under development has 12 linked modules and each\nitem of data can carry up to 10 definable attribute fields. The system handles several million transactions a\nyear. Which of the following techniques can an IS auditor use to estimate the size of the development effort?",
+      "options": {
+        "A": "Program evaluation review technique (PERT)",
+        "B": "Function point analysis",
+        "C": "Counting source lines of code",
+        "D": "White box testing"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Program evaluation review technique (PERT) is a project management technique used in the planning and\ncontrol of system projects.",
+        "B": "Function point analysis is a technique used to determine the size of a development task based on the\nnumber of function points. Function points are factors such as inputs, outputs, inquiries and logical\ninternal sites.",
+        "C": "The number of source lines of code gives a direct measure of program size, but it does not allow fbr the\ncomplexity that may be caused by multiple, linked modules and a variety of inputs and outputs.",
+        "D": "White box testing involves a detailed review of the behavior of program code. It is a quality assurance\ntechnique suited to simpler applications during the design and building stage of development.\n212 C/SA ® Official Questions, Answers & Explanations Manual 13比 Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 31
+    },
+    {
+      "number": 64,
+      "question": "An organization has contracted with an external consulting firm to implement a commercial financial system\nto replace its existing system that was developed in-house. In reviewing the proposed development approach,\nwhich of the following is of GREATEST concern?",
+      "options": {
+        "A": "Acceptance testing is to be managed by users.",
+        "B": "A quality plan is not part of the contracted deliverables.",
+        "C": "Not all business functions will be available on initial implementation.",
+        "D": "Prototyping is being used to confirm that the system meets business requirements."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Acceptance is normally managed by the user area because users must be satisfied that the new system will\nmeet their requirements.",
+        "B": "A quality plan is an essential element of all projects. It is critical that the contracted supplier is\nrequired to produce such a plan. The quality plan for the proposed development contract should be\ncomprehensive and encompass all phases of the development and include which business functions\nwill be included and when.",
+        "C": "If the system is large, a phased-in approach to implementing the application is a reasonable approach.",
+        "D": "Prototyping is a valid method of ensuring that the system will meet business requirements."
+      },
+      "page": 32
+    },
+    {
+      "number": 65,
+      "question": "When preparing a business case to support the need of an electronic data warehouse solution, which of the\nfollowing choices is the MOST important to assist management in the decision-making process?",
+      "options": {
+        "A": "Discuss a single solution.",
+        "B": "Consider security controls.",
+        "C": "Demonstrate feasibility.",
+        "D": "Consult the audit department."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "A business case should discuss all possible solutions to a given problem, which enables management to\nselect the best option. This may include the option not to undertake the project.",
+        "B": "It may be important to include security considerations in the business case if security is important to the\nsolution and will address the problem; however, the feasibility study is more important and is necessary\nregardless of the type of problem.",
+        "C": "The business case should demonstrate feasibility for any potential project. By including a feasibility\nstudy in the business case along with a cost-benefit analysis, management can make an informed\ndecision.",
+        "D": "Although the person preparing the business case may consult with the organization audit department, this\nis situational and not necessary to include in the business case.\n213\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 32
+    },
+    {
+      "number": 66,
+      "question": "Functionality is a characteristic associated with evaluating the quality of software products throughout their\nlife cycle and is BEST described as the set of attributes that apply to the:",
+      "options": {
+        "A": "existence of a set of functions and their specified properties.",
+        "B": "ability of the software to be transferred from one environment to another.",
+        "C": "capability of software to maintain its level of performance under stated conditions.",
+        "D": "relationship between the performance of the software and the amount of resources used."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Functionality is the set of attributes that apply to the existence of a set of functions and their\nspecified properties. The functionality of a system represents the tasks, operations and purpose of\nthe system in achieving its objective (i.e., supporting a business requirement).",
+        "B": "The ability of the software to be transferred from one environment to another refers to portability.",
+        "C": "The capability of software to maintain its level of performance under stated conditions refers to reliability.",
+        "D": "The relationship between the performance of the software and the amount of resources used refers to\nefficiency."
+      },
+      "page": 33
+    },
+    {
+      "number": 67,
+      "question": "During the development of an application, quality assurance (QA) testing and user acceptance testing (UAT)\nwere combined. The MAJOR concern fbr an information systems (IS) auditor reviewing the project is:",
+      "options": {
+        "A": "increased maintenance.",
+        "B": "improper documentation of testing.",
+        "C": "improper acceptance of a program.",
+        "D": "delays in problem resolution."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "The method of testing used does not affect the maintenance of the system.",
+        "B": "Quality assurance (QA)and user acceptance testing (UAT) are often led by business representatives\naccording to a defined test plan. The combination of these two tests does not affect documentation.",
+        "C": "The major risk of combining QA testing and UAT is that the users may apply pressure to accept a\nprogram that meets their needs even though it does not meet QA standards.",
+        "D": "The method of testing should not affect the timelines for problem resolution.\n214 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 33
+    },
+    {
+      "number": 68,
+      "question": "Which of the following BEST describes the role of an information systems (IS) auditor in improving quality\nassurance?",
+      "options": {
+        "A": "Internal auditor",
+        "B": "Reviewer",
+        "C": "Workshop facilitator",
+        "D": "Consultant"
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "The internal auditor's role is to provide independent assurance that an organization's risk management,\ngovernance and internal control processes are operating effectively. This assurance is achieved by\nperforming audits, which are quality control, and not necessarily related to quality assurance.",
+        "B": "Review is primarily a quality control activity.",
+        "C": "The information systems (IS) auditor may conduct workshops as a consultant in improving quality\nassurance, which is part of the planning activity.",
+        "D": "Audit is primarily a quality control activity; however, the auditor can help an organization in\nimproving quality assurance by guiding it on control effectiveness. This is the role of a consultant."
+      },
+      "page": 34
+    },
+    {
+      "number": 69,
+      "question": "An information systems (IS) auditor reviewing a proposed application software acquisition should ensure that\nthe:",
+      "options": {
+        "A": "operating system (OS) being used is compatible with the existing hardware platform.",
+        "B": "planned OS updates have been scheduled to minimize negative impacts on enterprise needs.",
+        "C": "OS has the latest versions and updates.",
+        "D": "product is compatible with the current or planned OS."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "If the operating system (OS) is currently being used, it is compatible with the existing hardware platform;\nif it were incompatible, it would not operate properly.",
+        "B": "The planned OS updates should be scheduled to minimize negative impacts on the organization, but this is\nnot an issue when considering the acquisition of new software.",
+        "C": "The installed OS should be equipped with the most recent versions and updates (with sufficient history\nand stability). Because the OS is installed, it is not a consideration at the time of considering acquisition\nof a new application.",
+        "D": "In reviewing the proposed application, the auditor should ensure that the products to be purchased\nare compatible with the current or planned OS.\n215\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 34
+    },
+    {
+      "number": 70,
+      "question": "Which of the following is of GREATEST concern to an information systems (IS) auditor when performing an\naudit of a client relationship management system migration project?",
+      "options": {
+        "A": "The technical migration is planned fbr a Friday preceding a long weekend, and the time window is too\nshort fbr completing all tasks.",
+        "B": "Employees pilot testing the system are concerned that the data representation in the new system is\ncompletely different from the old system.",
+        "C": "A single implementation is planned, immediately decommissioning the legacy system.",
+        "D": "Five weeks prior to the target date, there are still numerous defects in the printing functionality of the new"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "A weekend can be used as a time buffer so that the new system will have a better chance of being up and\nrunning after the weekend.",
+        "B": "A different data representation does not mean different data presentation at the front end. Even when this\nis the case, this issue can be solved by adequate training and user support.",
+        "C": "Major system migrations should include a phase of parallel operation or a phased cutover to reduce\nimplementation risk. Decommissioning or disposing of the old hardware would complicate any\nfallback strategy if the new system does not operate correctly.",
+        "D": "The printing functionality is commonly one of the last functions to be tested in a new system because it\nis usually the last step performed in any business event. Thus, meaningful testing and the respective error\nfixing are only possible after all other parts of the software have been successfully tested."
+      },
+      "page": 35
+    },
+    {
+      "number": 71,
+      "question": "Which of the following types of testing determines whether a new or modified system can operate in its target\nenvironment without adversely impacting other existing systems?",
+      "options": {
+        "A": "Parallel testing",
+        "B": "Pilot testing",
+        "C": "Interface/integration testing",
+        "D": "Sociability testing"
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Parallel testing is the process of feeding data into two systems—the modified system and an alternate\nsystem一and comparing the results. In this approach, the old and new systems operate concurrently for\na period and perform the same processing functions. This allows a new system to be tested without\naffecting existing systems.",
+        "B": "Pilot testing takes place first at one location and is then extended to other locations. The purpose is to see\nif the new system operates satisfactorily in one place before implementing it at other locations. In most\ncases, the cutover to the new system will disable existing systems.",
+        "C": "Interface/integration testing is a hardware or software test that evaluates the connection of two or more\ncomponents that pass information from one area to another. The objective is to take unit-tested modules\nand build an integrated structure. This does not test in a true production environment.\nD・ The purpose of sociability testing is to confirm that a new or modified system can operate in its\ntarget environment without adversely impacting existing systems. This should cover the platform\nthat will perform primary application processing and interfaces with other systems, and changes to\nthe desktop in a client-server or web development\n216 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved.",
+        "D": "No explanation available"
+      },
+      "page": 35
+    },
+    {
+      "number": 73,
+      "question": "Which of the following is the GREATEST risk to the effectiveness of application system controls?",
+      "options": {
+        "A": "Removal of manual processing steps",
+        "B": "Inadequate procedure manuals",
+        "C": "Collusion between employees",
+        "D": "Unresolved regulatory compliance issues"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Automation should remove manual processing steps wherever possible. The only risk is the removal of\nmanual security controls without replacement with automated controls.",
+        "B": "The lack of documentation is a problem on many systems but not a serious risk in most cases.",
+        "C": "Collusion is an active attack where users collaborate to bypass controls, such as separation\nof duties. Such breaches may be difficult to identify because even well-thought-out application\ncontrols may be circumvented.",
+        "D": "Unregulated compliance issues are a risk but do not measure the effectiveness of the controls.\n217\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 36
+    },
+    {
+      "number": 74,
+      "question": "An organization is implementing a new system to replace a legacy system. Which of the following conversion\npractices creates the GREATEST risk?",
+      "options": {
+        "A": "Pilot",
+        "B": "Parallel",
+        "C": "Direct cutover",
+        "D": "Phased"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "A pilot implementation is the implementation of the system at a single location or region and then a\nrollout of the system to the rest of the organization, after the application and implementation plan have\nbeen proven to work correctly at the pilot location.",
+        "B": "A parallel test requires running the old and new systems in parallel for a time period. This test highlights\nany problems or inconsistencies between the old and new systems.",
+        "C": "Direct cutover implies switching to the new system immediately, usually without the ability to revert\nto the old system in the event of problems. This approach has the highest risk and may have a\nsignificant impact on the organization.",
+        "D": "A phased approach is used to implement the system in phases or sections—this minimizes the overall risk\nby only affecting one area at a time."
+      },
+      "page": 37
+    },
+    {
+      "number": 75,
+      "question": "During the requirements definition stage of a proposed enterprise resource planning system, the project\nsponsor requests that the procurement and accounts payable modules be linked. Which of the following test\nmethods is the BEST to perform?",
+      "options": {
+        "A": "Unit testing",
+        "B": "Integration testing",
+        "C": "Sociability testing",
+        "D": "Quality assurance (QA) testing"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Unit testing is a technique that is used to test program logic within a particular program or module and\ndoes not specifically address the linkage between software modules. Integration testing is the best answer.",
+        "B": "Integration testing is a hardware or software test that evaluates the connection of two or more\ncomponents that pass information from one area to another The objective is to take unit-tested\nmodules and build an integrated structure dictated by design.",
+        "C": "Sociability testing confirms that the new or modified system can operate in its target environment without\nadversely impacting existing systems and does not specifically address the linkage between software\nmodules. Integration testing is the best answer.",
+        "D": "Quality assurance (QA) testing is primarily used to ensure that the logic of the application is correct and\ndoes not specifically address the linkage between software modules. Integration testing is the best answer.\n218 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 37
+    },
+    {
+      "number": 76,
+      "question": "During a postimplementation review of an enterprise resource management system, an information systems\n(IS) auditor is MOST likely to:",
+      "options": {
+        "A": "review access control configuration.",
+        "B": "evaluate interface testing.",
+        "C": "review detailed design documentation.",
+        "D": "evaluate system testing."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Reviewing access control configuration is the first task performed to determine whether security\nhas been appropriately mapped in the system.",
+        "B": "Because a postimplementation review is done after user acceptance testing and actual implementation, an\ninformation systems (IS) auditor does not evaluate interface testing. Evaluating interface testing is part of\nthe implementation process.",
+        "C": "The issue of reviewing detailed design documentation is not generally relevant to an enterprise resource\nmanagement system, because these systems are usually vendor packages with user manuals. Further,\nbecause the system has been implemented, the IS auditor would only check the detailed design if there\nappeared to be a gap between design and functionality.",
+        "D": "System testing should be performed before final user signoff. The IS auditor should not need to review\nthe system tests after implementation."
+      },
+      "page": 38
+    },
+    {
+      "number": 77,
+      "question": "An organization recently deployed a customer relationship management application that was developed\nin-house. Which of the following is the BEST option to ensure that the application operates as designed?",
+      "options": {
+        "A": "user acceptance testing (UAT)",
+        "B": "Project risk assessment",
+        "C": "Postimplementation review",
+        "D": "Management approval of the system"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "user acceptance testing (UAT) verifies that the system functionality is deemed acceptable by the end\nusers of the system; however, a review of UAT does not validate whether the system is performing as\ndesigned because UAT is performed on a subset of system functionality. The UAT review is a part of the\npostimplementation review.",
+        "B": "Although a risk assessment highlights the risk of the system, it does not include an analysis to verify that\nthe system is operating as designed.",
+        "C": "The purpose of a postimplementation review is to evaluate how successfully the project results\nmatch original goals, objectives and deliverables. The postimplementation review also evaluates\nhow effective the project management practices were in keeping the project on track.",
+        "D": "Management approval of the system can be based on reduced functionality and does not verify that the\nsystem is operating as designed. Management approval is a part of postimplementation review.\n219\nC/SA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 38
+    },
+    {
+      "number": 78,
+      "question": "In an online transaction processing system, data integrity is maintained by ensuring that a transaction is either\ncompleted in its entirety or not at all. This principle of data integrity is known as:",
+      "options": {
+        "A": "isolation.",
+        "B": "consistency.",
+        "C": "atomicity.",
+        "D": "durability."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Isolation ensures that each transaction is isolated from other transactions; hence, each transaction can only\naccess data if they are not being simultaneously accessed or modified by another process.",
+        "B": "Consistency ensures that all integrity conditions in the database are maintained with each transaction.",
+        "C": "The principle of atomicity requires that a transaction be completed in its entirety or not at alL If an\nerror or interruption occurs, all changes made up to that point are backed out.",
+        "D": "Durability ensures that, when a transaction has been reported back to a user as complete, the resultant\nchanges to the database will survive subsequent hardware or software failures."
+      },
+      "page": 39
+    },
+    {
+      "number": 79,
+      "question": "An organization undertakes a business process reengineering project in support of a new and direct marketing\napproach to its customers. Which of the following is an information systems (IS) auditor's main concern about\nthe new process?",
+      "options": {
+        "A": "Whether key controls are in place to protect assets and information resources",
+        "B": "Whether the system addresses corporate customer requirements",
+        "C": "Whether the system can meet the performance goals",
+        "D": "Whether the system supports segregation/separation of duties (SoD)"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "The audit team must advocate the inclusion of the key controls and verify that the controls are in\nplace before implementing the new process.",
+        "B": "The system must meet the requirements of all customers, not just corporate customers. This is not the\ninformation systems (IS) auditor's main concern.",
+        "C": "The system must meet performance requirements, but this is of secondary concern to the need to ensure\nthat key controls are in place.",
+        "D": "Separation of duties (SoD) is a key control―but only one of the controls that should be in place to protect\nthe assets of the organization.\n220 CIS A ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 39
+    },
+    {
+      "number": 80,
+      "question": "An organization implemented a new client-server enterprise resource planning (ERP) system. Local branches\ntransmit customer orders to a central manufacturing facility. Which of the following BEST ensures that the\norders are processed accurately and the corresponding products are produced?",
+      "options": {
+        "A": "Verifying production of customer orders",
+        "B": "Logging all customer orders in the ERP system",
+        "C": "Using hash totals in the order transmitting process",
+        "D": "Approving (production supervisor) orders prior to production"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Verification of the products produced ensures that the produced products match the orders in the\norder system.",
+        "B": "Logging can be used to detect inaccuracies but does not guarantee accurate processing.",
+        "C": "Hash totals ensure accurate order transmission but not accurate processing centrally.",
+        "D": "Production supervisory approval is a time-consuming manual process that does not guarantee proper\ncontrol."
+      },
+      "page": 40
+    },
+    {
+      "number": 81,
+      "question": "When two or more systems are integrated, the information systems (IS) auditor must review input/output\ncontrols in the:",
+      "options": {
+        "A": "systems receiving the output of other systems.",
+        "B": "systems sending output to other systems.",
+        "C": "systems sending and receiving data.",
+        "D": "interfaces between the two systems."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "A responsible control is to protect downstream systems from contamination from an upstream system.\nThis requires a system that sends data to review its output and the receiving system to review its input.",
+        "B": "Systems sending data to other systems should ensure that the data they send are correct, but that\nverification does not protect the receiving system from transmission errors.",
+        "C": "Both systems must be reviewed for input/output controls because the output for one system is the\ninput for the other",
+        "D": "The interfaces must be set up correctly and provide error controls, but a good practice is to review the\ndata before sending and after receipt.\n221\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 40
+    },
+    {
+      "number": 82,
+      "question": "An information systems (IS) auditor recommends that an initial validation control be programmed into a credit\ncard transaction capture application. The initial validation process MOST likely:",
+      "options": {
+        "A": "checks to ensure that the type of transaction is valid fbr the card type.",
+        "B": "verifies the format of the number entered, then locates it on the database.",
+        "C": "ensures that the transaction entered is within the cardholder's credit limit.",
+        "D": "confirms that the card is not shown as lost or stolen on the master file."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "The initial validation is not used to check the transaction type—ust the validity of the card number.",
+        "B": "The initial validation should confirm whether the card is valid. This validity is established through\nthe card number and personal identification number entered by the user",
+        "C": "The initial validation is to prove the card number entered is valid—only then can the transaction amount\nbe checked for approval from the bank.",
+        "D": "The verification that the card has not been reported as lost or stolen is only done after the card number has\nbeen validated as correctly entered."
+      },
+      "page": 41
+    },
+    {
+      "number": 83,
+      "question": "A small company cannot segregate duties between its development processes and its change control function.\nWhat is the BEST way to ensure that the tested code is the code that is moved into production?",
+      "options": {
+        "A": "Release management software",
+        "B": "Manual code comparison",
+        "C": "Regression testing in preproduction",
+        "D": "Management approval of changes"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Automated release management software can prevent unauthorized changes by moving code into\nproduction without any manual intervention.",
+        "B": "Manual code comparison can detect whether the wrong code has been moved into production; however,\ncode comparison does not prevent the code from being migrated and is not as good a control as using\nrelease management software. In addition, manual code comparison is not always efficient and requires\nhighly skilled personnel.",
+        "C": "Regression testing ensures that changes do not break the current system functionality or unwittingly\noverwrite previous changes. Regression testing does not prevent untested code from moving into\nproduction.",
+        "D": "Although management should approve every change to production, approvals do not prevent untested\ncode from being migrated into the production environment.\n222 CISA ® Official Questions, Answers & Explanations Manuall3th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 41
+    },
+    {
+      "number": 84,
+      "question": "Which of the following will BEST ensure the successful offshore development of business applications?",
+      "options": {
+        "A": "Stringent contract management practices",
+        "B": "Detailed and properly applied specifications",
+        "C": "Awareness of cultural and political differences",
+        "D": "Postimplementation review"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Contract management practices, although important, do not ensure successful development if the\nspecifications are incorrect.",
+        "B": "When dealing with offshore operations, it is essential to create detailed specifications. Language\ndifferences, a lack of interaction between developers and physically remote end users can\ncreate gaps in communication in which assumptions and modifications may not be adequately\ncommunicated. Inaccurate specifications cannot easily be corrected.",
+        "C": "Cultural and political differences, although important, should not affect the delivery of a good product.",
+        "D": "Postimplementation review, although important, is too late in the process to ensure successful project\ndelivery and is not as pivotal to the success of the project."
+      },
+      "page": 42
+    },
+    {
+      "number": 85,
+      "question": "When planning to add personnel to tasks imposing time constraints on the duration of a project, which of the\nfollowing should be revalidated FIRST?",
+      "options": {
+        "A": "Project budget",
+        "B": "Critical path fbr the project",
+        "C": "Length of the remaining tasks",
+        "D": "Personnel assigned to other tasks"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Given that there may be slack time available on some of the other tasks that are not on the critical path,\nthe resource allocation should be based on the project segments that affect delivery dates.",
+        "B": "Adding resources may change the route of the critical path. The critical path must be reevaluated to\nensure that additional resources will shorten the project duration.",
+        "C": "Given that there may be slack time available on some of the other tasks that are not on the critical path, a\nfactor such as the length of other tasks may or may not be affected.",
+        "D": "Depending on the skill level of the resources required or available, the addition of resources may not\nshorten the timeline. Therefore, the first step is to examine what resources are required to address the\ntimes on the critical path.\n223\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 42
+    },
+    {
+      "number": 86,
+      "question": "Which of the following BEST helps organizations in optimizing audit resources and improving the quality of\naudits?",
+      "options": {
+        "A": "Independent review of audit work",
+        "B": "Integrated audit approach",
+        "C": "Global auditing standards",
+        "D": "Risk-based audit approach"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "An independent review of the audit helps in improving the quality of future audits but may not help in\noptimizing resources.",
+        "B": "An integrated audit approach focuses on combining different types of audits at the same time; the\nresults of different audit scopes can be shared to provide a focused and quality audit report.",
+        "C": "Global auditing standards help in improving the quality of an audit but may not help in optimizing\nresources.",
+        "D": "A risk-based audit approach focuses on allocating resources to high-risk areas to make audits more\neffective but may not optimize resources."
+      },
+      "page": 43
+    },
+    {
+      "number": 87,
+      "question": "Which of the following is a characteristic of timebox management?",
+      "options": {
+        "A": "Not suitable fbr prototyping or rapid application development",
+        "B": "Eliminates the need fbr a quality process",
+        "C": "Prevents cost overruns and delivery delays",
+        "D": "Separates system and user acceptance testing (UAT)"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Timebox management is very suitable fbr prototyping and rapid application development.",
+        "B": "Timebox management does not eliminate the need fbr a quality process.",
+        "C": "Timebox management, by its nature, sets specific time and cost boundaries. It is effective in\ncontrolling costs and delivery timelines by ensuring that each segment of the project is divided\ninto small controllable time frames.",
+        "D": "Timebox management integrates system and user acceptance testing (UAT).\n224 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 43
+    },
+    {
+      "number": 88,
+      "question": "The waterfall life cycle model of software development is MOST appropriately used when:",
+      "options": {
+        "A": "requirements are well understood and are expected to remain stable, like the business environment in\nwhich the system will operate.",
+        "B": "requirements are well understood and the project is subject to time pressures.",
+        "C": "the project intends to apply an object-oriented design and programming approach.",
+        "D": "the project will involve the use of new technology."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Historically, the waterfall model has been best suited to stable conditions and well-defined\nrequirements.",
+        "B": "When the degree of uncertainty of the system to be delivered and the conditions in which it will be\nused rises, the waterfall model has not been successful. In these circumstances, the various forms of\niterative development life cycle give the advantage of breaking down the scope of the overall system to\nbe delivered, making the requirements gathering and design activities more manageable. The ability of an\niterative development life cycle to deliver working software earlier also acts to alleviate uncertainty and\nmay allow an earlier realization of benefits.",
+        "C": "The choice of a design and programming approach is not, itself, a determining factor of the type of\nsoftware development life cycle that is appropriate.",
+        "D": "The use of new technology in a project introduces a significant element of risk. An iterative form of\ndevelopment, particularly one of the agile or exploratory methods that focuses on early development of\nactual working software, is likely to be the better option to manage this uncertainty."
+      },
+      "page": 44
+    },
+    {
+      "number": 89,
+      "question": "Which of the following is MOST critical when creating data fbr testing the logic in a new or modified\napplication system?",
+      "options": {
+        "A": "Enough data fbr each test case",
+        "B": "Data representing expected conditions in actual processing",
+        "C": "Completing the test on schedule",
+        "D": "A random sample of actual data"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "The quantity of data for each test case is not as important as having test cases that address all types of\noperating conditions.",
+        "B": "Selecting the right kind of data is key in testing a computer system. The data should not only\ninclude valid and invalid data but also be representative of actual processing; quality is more\nimportant than quantity.",
+        "C": "It is more important to have adequate test data than to complete the testing on schedule.",
+        "D": "It is unlikely that a random sample of actual data covers all test conditions and provides a reasonable\nrepresentation of actual data.\n225\nC/SA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 44
+    },
+    {
+      "number": 90,
+      "question": "Which of the following should an information systems (IS) auditor review to gain an understanding of the\neffectiveness of controls over the management of multiple projects?",
+      "options": {
+        "A": "Project information",
+        "B": "Policy documents",
+        "C": "Project portfolio information",
+        "D": "Program organization"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Project information may contain the information about control effectiveness for one specific project and\nupdates to various parameters pertaining to the current status of that single project.",
+        "B": "Policy documents on project management set direction fbr the design, development, implementation and\nmonitoring of the project.",
+        "C": "Project portfolio information is the basis fbr project portfolio management It includes project data,\nsuch as owner, schedules, objectives, project type, status and cost. Project portfolio management\nrequires specific project portfolio reports.",
+        "D": "Program organization is the team required (steering committee, quality assurance, systems personnel,\nanalyst, programmer, hardware support, etc.) to meet the delivery objectives of the projects."
+      },
+      "page": 45
+    },
+    {
+      "number": 91,
+      "question": "Documentation of a business case used in an IT development project should be retained until:",
+      "options": {
+        "A": "the end of the system's life cycle.",
+        "B": "the project is approved.",
+        "C": "user acceptance of the system.",
+        "D": "the system is in production."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "A business case should be used throughout the life cycle of the product. It serves as an anchor\nfor new management personnel, helps to maintain focus and provides valuable information on\nestimates versus actuals. Questions, such as “Why do we do that?”, “What was the original intent?w\nand \"How did we perform against the plan?”, can be answered, and lessons for developing future\nbusiness cases can be learned.",
+        "B": "The business case should be retained even after project approval to provide ability to review and validate\nthe business case once the project is implemented.",
+        "C": "The business case will be retained throughout the system development life cycle for later reference and\nvalidation.",
+        "D": "After the system is in production, the business case can be validated to ensure that the promised costs and\nbenefits were correct.\n226 CIS A ® Official Questions, Answers & Explanations Manual 13 比 Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 45
+    },
+    {
+      "number": 92,
+      "question": "During the review of a web-based software development project, an information systems (IS) auditor realizes\nthat coding standards are not enforced and code reviews are rarely carried out. These issues will MOST likely\nincrease the likelihood of a successful:",
+      "options": {
+        "A": "buffer overflow.",
+        "B": "brute force attack.",
+        "C": "distributed denial of service (DDoS) attack.",
+        "D": "war dialing attack."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Poorly written code, especially in web-based applications, is often exploited by hackers using buffer\noverflow techniques.",
+        "B": "A brute force attack is used to crack passwords, but this is not related to coding standards.",
+        "C": "A distributed denial of service (DDoS) attack floods its target with numerous packets to prevent it from\nresponding to legitimate requests. This is not related to coding standards.",
+        "D": "War dialing uses modem-scanning tools to hack private branch exchanges or other telecommunications\nservices."
+      },
+      "page": 46
+    },
+    {
+      "number": 93,
+      "question": "Which testing approach is MOST appropriate to ensure that internal application interface errors are identified\nas soon as possible?",
+      "options": {
+        "A": "Bottom-up testing",
+        "B": "Sociability testing",
+        "C": "Top-down testing",
+        "D": "System testing"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "A bottom-up approach to testing begins with atomic units, such as programs and modules, and works\nupward until a complete system test has taken place.",
+        "B": "Sociability testing takes place at a later stage in the development process.",
+        "C": "The top-down approach to testing ensures that interface errors are detected early and that testing\nof major functions is conducted early.",
+        "D": "System tests take place at a later stage in the development process.\n227\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 46
+    },
+    {
+      "number": 94,
+      "question": "When reviewing input controls, an information systems (IS) auditor observes that, in accordance with\ncorporate policy, procedures allow supervisory override of data validation edits. The IS auditor should:",
+      "options": {
+        "A": "not be concerned, because there may be other compensating controls to mitigate the risk.",
+        "B": "ensure that overrides are automatically logged and subject to review.",
+        "C": "verify whether all such overrides are referred to senior management fbr approval.",
+        "D": "recommend that overrides not be permitted."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "An information systems (IS) auditor should not assume that compensating controls exist.",
+        "B": "If input procedures allow overrides of data validation and editing, automatic logging should occur\nA management individual who did not initiate the override should review this log.",
+        "C": "The log may be reviewed by another manager but does not require senior management approval.",
+        "D": "If the overrides are policy-compliant, there is no need for senior management approval or a blanket\nprohibition."
+      },
+      "page": 47
+    },
+    {
+      "number": 95,
+      "question": "To minimize the cost of a software project, quality management techniques should be applied:",
+      "options": {
+        "A": "as close to their writing (i.e., point of origination) as possible.",
+        "B": "primarily at project start to ensure that the project is established in accordance with organizational\ngovernance standards.",
+        "C": "continuously throughout the project with an emphasis on finding and fixing defects primarily through\ntesting to maximize the defect detection rate.",
+        "D": "mainly at project close-down to capture lessons learned that can be applied to future projects."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Quality assurance (QA) should start as early as possible but continue through the entire development\nprocess.",
+        "B": "Only performing QA during the start of the project will not detect problems that appear later in the\ndevelopment cycle.",
+        "C": "Although quality management is important to properly establish a software development project,\nquality management should be effectively practiced throughout the project. The major source of\nunexpected costs on most software projects is rework. The general rule is that the earlier in the\ndevelopment life cycle that a defect occurs, and the longer it takes to find and fix that defect, the\nmore effort will be needed to correct it. A well-written quality management plan is a good start, but\nit must also be actively applied. Simply relying on testing to identify defects is a relatively costly and\nless effective way of achieving software quality. For example, an error in requirements discovered in\nthe testing phase can result in scrapping significant amounts of work.",
+        "D": "Capturing lessons learned will be too late for the current project. Additionally, applying quality\nmanagement techniques throughout a project is likely to yield its own insights into the causes of quality\nproblems and assist in staff development.\n228 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 47
+    },
+    {
+      "number": 96,
+      "question": "When identifying an earlier project completion time, which is to be accomplished by paying a premium for\nearly completion, the activities that should be selected are those:",
+      "options": {
+        "A": "whose sum of activity time is the shortest.",
+        "B": "that have zero slack time.",
+        "C": "that give the longest possible completion time.",
+        "D": "whose sum of slack time is the shortest."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Attention should fbcus on the tasks within the critical path that have no slack time.",
+        "B": "A critical path's activity time is longer than that for any other path through the network. This\npath is important because if everything goes as scheduled, its length gives the shortest possible\ncompletion time for the overall project. Activities on the critical path become candidates for\ncrashing (i.e., for reduction in their time by payment of a premium for early completion). Activities\non the critical path have zero slack time and, conversely, activities with zero slack time are on a\ncritical path. By successively relaxing activities on a critical path, a curve showing total project\ncosts versus time can be obtained.",
+        "C": "The critical path is the longest time length of the activities but is not based on the longest time of any\nindividual activity.",
+        "D": "A task on the critical path has no slack time."
+      },
+      "page": 48
+    },
+    {
+      "number": 97,
+      "question": "An information systems (IS) auditor is assigned to audit a software development project that is more than 80\npercent complete but has already overrun time by 10 percent and costs by 25 percent. Which of the following\nactions should the IS auditor take?",
+      "options": {
+        "A": "Report that the organization does not have effective project management.",
+        "B": "Recommend that the project manager be changed.",
+        "C": "Review the IT governance structure.",
+        "D": "Review the business case and project management."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "The organization may have effective project management practices and still be behind schedule or over\nbudget.",
+        "B": "There is no indication that the project manager should be changed without looking into the reasons fbr the\noverrun.",
+        "C": "The organization may have sound IT governance and still be behind schedule or over budget.",
+        "D": "Before making any recommendations, an information systems (IS) auditor needs to understand the\nproject and the factors that have contributed to bringing the project over budget and over schedule.\n229\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 48
+    },
+    {
+      "number": 98,
+      "question": "During the information systems (IS) audit of large payment systems of an organization, it was noticed that\nduring code coverage testing, the quality assurance team analyzed a nonproduction environment using logging\nand tracing tools. Which of the following code issues is MOST likely to be missed because of this action?",
+      "options": {
+        "A": "Race condition",
+        "B": "Bounds checking",
+        "C": "Input validation",
+        "D": "Pointer manipulation"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "The changes from a testing environment with instrumentation inserted into the code and the\nproduction environment fbr the code can mask timing-related issues like race conditions.",
+        "B": "Bounds checking is a coding issue rather than an environmental issue.",
+        "C": "Input validation is a coding issue rather than an environmental issue.",
+        "D": "Pointer manipulation is a coding issue rather than an environmental issue."
+      },
+      "page": 49
+    },
+    {
+      "number": 99,
+      "question": "Which of the following system and data conversion strategies provides the GREATEST redundancy?",
+      "options": {
+        "A": "Direct cutover",
+        "B": "Pilot study",
+        "C": "Phased approach",
+        "D": "Parallel run"
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Direct cutover has high risk because it does not provide for a period of testing and adjustments, nor does\nit provide an easy fallback option if the new system fails.",
+        "B": "A pilot study approach is performed incrementally, making rollback procedures difficult to execute.",
+        "C": "A phased approach is performed incrementally, making rollback procedures difficult to execute.",
+        "D": "Parallel runs are the safest—although the most expensive—approach because both the old and new\nsystems are run, thus incurring what might appear to be double costs."
+      },
+      "page": 49
+    },
+    {
+      "number": 100,
+      "question": "Which of the following should be developed during the requirements definition phase of a software\ndevelopment project to address aspects of software testing?",
+      "options": {
+        "A": "Test data covering critical applications",
+        "B": "Detailed test plans",
+        "C": "Quality assurance (QA) test specifications",
+        "D": "User acceptance test (UAT) specifications"
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "Test data is usually created during the system testing phase.",
+        "B": "Detailed test plans are created during system testing.",
+        "C": "Quality assurance (QA) test specifications are set out later in the development process.",
+        "D": "A key objective in any software development project is to ensure that the developed software will\nmeet the business objectives and the requirements of the user. The users should be involved in\nthe requirements definition phase of a development project and user acceptance testing (UAT)\nspecification should be developed during this phase.\n230 CISA ® Official Questions, Answers & Explanations Manua/13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 49
+    },
+    {
+      "number": 101,
+      "question": "At the completion of a system development project, a postproject review should include which of the\nfollowing?",
+      "options": {
+        "A": "Assessing risk that may lead to downtime after the production release",
+        "B": "Identifying lessons learned that may be applicable to future projects",
+        "C": "Verifying that the controls in the delivered system are working",
+        "D": "Ensuring that test data are deleted"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "An assessment of potential downtime should be made with the operations group and other specialists\nbefore implementing a system.",
+        "B": "A project team has something to learn from every project Because risk assessment is a key issue\nfor project management, it is important fbr the organization to accumulate lessons learned and\nintegrate them into future projects.",
+        "C": "Verifying that controls are working should be covered during the acceptance test phase and possibly again\nin the postimplementation review. The postproject review focuses on project-related issues.",
+        "D": "Test data should be retained fbr future regression testing."
+      },
+      "page": 50
+    },
+    {
+      "number": 102,
+      "question": "An information systems (IS) auditor is asked to participate in project initiation meetings for a critical project.\nThe IS auditor's MAIN concern should be that the:",
+      "options": {
+        "A": "complexity and risk associated with the project have been analyzed.",
+        "B": "resources needed throughout the project have been determined.",
+        "C": "technical deliverables have been identified.",
+        "D": "contract fbr external parties involved in the project has been completed."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Understanding complexity and risk, and actively managing these throughout a project are critical\nto a successful outcome.",
+        "B": "The resources needed will be dependent on the complexity of the project.",
+        "C": "It is too early in the project to identify the technical deliverables.",
+        "D": "Not all projects require contracts with external parties."
+      },
+      "page": 50
+    },
+    {
+      "number": 103,
+      "question": "From a risk management point of view, the BEST approach when implementing a large and complex IT\ninfrastructure is:",
+      "options": {
+        "A": "a major deployment after proof of concept.",
+        "B": "prototyping and a one-phase deployment.",
+        "C": "a deployment plan based on sequenced phases.",
+        "D": "to simulate the new infrastructure before deployment."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "A major deployment poses a higher risk of implementation failure.",
+        "B": "Prototyping may reduce development failure, but a large environment usually requires a phased approach.",
+        "C": "When developing a large and complex IT infrastructure, a good practice is to use a phased\napproach to fit the entire system together. This provides greater assurance of quality results.",
+        "D": "It is not usually feasible to simulate a large and complex IT infrastructure prior to deployment.\nCISA ® Official Questions, Answers & Explanations Manuall3th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 50
+    },
+    {
+      "number": 104,
+      "question": "When reviewing an active project, an information systems (IS) auditor observed that the business case was\nno longer valid because of a reduction in anticipated benefits and increased costs. The IS auditor should\nrecommend that the:",
+      "options": {
+        "A": "project be discontinued.",
+        "B": "business case be updated and possible corrective actions be identified.",
+        "C": "project be returned to the project sponsor fbr re-approval.",
+        "D": "project be completed and the business case be updated later."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "An information systems (IS) auditor should not recommend discontinuing or completing the project\nbefore reviewing an updated business case.",
+        "B": "The IS auditor should recommend that the business case be kept current throughout the project\nbecause it is a key input to decisions made throughout the life of any project.",
+        "C": "The project cannot be returned to the sponsor until the business case has been updated.",
+        "D": "An IS auditor should not recommend completing the project before reviewing an updated business case\nand ensuring approval from the project sponsor."
+      },
+      "page": 51
+    },
+    {
+      "number": 105,
+      "question": "Which of the following is an advantage of the top-down approach to software testing?",
+      "options": {
+        "A": "Interface errors are identified early.",
+        "B": "Testing can be started before all programs are complete.",
+        "C": "It is more effective than other testing approaches.",
+        "D": "Errors in critical modules are detected sooner."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "The advantage of the top-down approach is that tests of major functions are conducted early, thus\nenabling the detection of interface errors sooner",
+        "B": "The advantage that testing can be started before all programs are complete is characteristic of the\nbottom-up approach to system testing.",
+        "C": "The most effective testing approach is dependent on the environment being tested.",
+        "D": "Detecting errors in critical modules sooner is an advantage of the bottom-up approach to system testing.\n232 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 51
+    },
+    {
+      "number": 106,
+      "question": "During the system testing phase of an application development project, the information systems (IS) auditor\nshould review the:",
+      "options": {
+        "A": "conceptual design specifications.",
+        "B": "vendor contract.",
+        "C": "error reports.",
+        "D": "program change requests."
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "A conceptual design specification is a document prepared during the requirements definition phase. The\nsystem testing is based on a test plan.",
+        "B": "A vendor contract is prepared during a software acquisition process and may be reviewed to ensure that\nall the deliverables in the contract have been delivered, but the most important area of review is the error\nreports.",
+        "C": "Testing is crucial in determining that user requirements have been validated. The information\nsystems (IS) auditor should be involved in this phase, review error reports for their precision in\nrecognizing erroneous data and review the procedures for resolving errors.",
+        "D": "Program change requests are reviewed normally as a part of the postimplementation phase."
+      },
+      "page": 52
+    },
+    {
+      "number": 107,
+      "question": "Which of the following is the MOST cost-effective recommendation for reducing the number of defects\nencountered during software development projects?",
+      "options": {
+        "A": "Increase the time allocated fbr system testing.",
+        "B": "Implement formal software inspections.",
+        "C": "Increase the development staff.",
+        "D": "Require the sign-off of all project deliverables."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Allowing more time fbr testing may discover more defects; however, little is revealed about why the\nquality problems are occurring, and the costs of the extra testing and rectifying the defects found will be\ngreater than if they had been discovered earlier in the development process.",
+        "B": "Inspections of code and design are a proven software quality technique. An advantage of this\napproach is that defects are identified before they propagate through the development life cycle.\nThis reduces the cost of correction because less rework is involved.",
+        "C": "The ability of the development staff can have a bearing on the quality of what is produced; however,\nreplacing staff can be expensive and disruptive, and the presence of a competent staff cannot guarantee\nquality in the absence of effective quality management processes.",
+        "D": "Sign-off of deliverables may help detect defects if signatories are diligent about reviewing deliverable\ncontent; however, this is difficult to enforce and may occur too late in the process to be cost-effective.\nDeliverable reviews normally do not go down to the same level of detail as software inspections.\n233\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 52
+    },
+    {
+      "number": 108,
+      "question": "An information systems (IS) auditor who is invited to a project development meeting notes that no project\nrisk has been documented. When the IS auditor raises this issue, the project manager responds that it is too\nearly to identify risk and that, if risk starts impacting the project, a risk manager will be hired. The appropriate\nresponse of the IS auditor is to:",
+      "options": {
+        "A": "stress the importance of spending time at this point in the project to consider and document risk and to\ndevelop contingency plans.",
+        "B": "accept the project manager's position because the project manager is accountable for the outcome of the\nproject.",
+        "C": "offer to work with the risk manager when one is appointed.",
+        "D": "inform the project manager that the IS auditor will conduct a review of the risk at the completion of the"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "The majority of project risk can be identified before a project begins, allowing mitigation/avoidance\nplans to be put in place to deal with this risk. A project should have a clear link back to corporate\nstrategy, enterprise risk management and tactical plans to support this strategy. The process\nof setting corporate strategy, setting objectives and developing tactical plans should include the\nconsideration of risk.",
+        "B": "The project manager cannot accept responsibility fbr risk acceptance. The risk must be addressed\ncontinuously—starting as early in the process as possible.",
+        "C": "Appointing a risk manager is a good practice, but waiting until the project has been impacted by risk\nis misguided. Risk management needs to be forward looking; allowing risk to evolve into issues that\nadversely impact the project represents a failure of risk management. With or without a risk manager,\npeople within and outside of the project team need to be consulted and encouraged to comment when\nthey believe new risk has emerged or risk priorities have changed. The information systems (IS)\nauditor has an obligation to the project sponsor and the organization to advise on appropriate project\nmanagement practices. Waiting for the possible appointment of a risk manager represents an unnecessary\nand dangerous delay in implementing risk management.",
+        "D": "IS auditors cannot provide risk review without impairing their independence."
+      },
+      "page": 53
+    },
+    {
+      "number": 109,
+      "question": "The MAIN purpose of a transaction audit trail is to:",
+      "options": {
+        "A": "reduce the use of storage media.",
+        "B": "determine accountability and responsibility for processed transactions.",
+        "C": "help an information systems (IS) auditor trace transactions.",
+        "D": "provide useful information fbr capacity planning."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Enabling audit trails increases the use of disk space.",
+        "B": "Enabling audit trails aids in establishing the accountability and responsibility fbr processed\ntransactions by tracing them through the information system.",
+        "C": "A transaction log file is used to trace transactions, but the primary purpose of an audit trail is to support\naccountability, not to support the work of the information systems (IS) auditor.",
+        "D": "The objective of capacity planning is the efficient and effective use of IT resources and requires\ninformation, such as central processing unit utilization, bandwidth and the number of users.\n234 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 53
+    },
+    {
+      "number": 111,
+      "question": "A legacy payroll application was migrated to a new application. Which of the following stakeholders should\nbe PRIMARILY responsible for reviewing and signing off on the accuracy and completeness of the data\nbefore going live?",
+      "options": {
+        "A": "Information systems (IS) auditor",
+        "B": "Database administrator (DBA)",
+        "C": "Project manager",
+        "D": "Data owner"
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "An information systems (IS) auditor should ensure that there is a review and sign-off by the data owner\nduring the data conversion stage of the project. An IS auditor is not responsible for reviewing and\nsigning-off on the accuracy of the converted data.",
+        "B": "A database administrator's (DBA's) primary responsibility is to maintain the integrity of the database and\nmake the database available to users. A DBA is not responsible for reviewing migrated data.",
+        "C": "A project manager provides day-to-day management and leadership of the project but is not responsible\nfor the accuracy and integrity of the data.",
+        "D": "During the data conversion stage of a project, the data owner is primarily responsible for reviewing\nand signing off that the data are migrated completely and accurately and are valid.\nCISA ® Official Questions, Answers & Explanations Manual 13妨 Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 54
+    },
+    {
+      "number": 112,
+      "question": "An organization is migrating from a legacy system to an enterprise resource planning system. While\nreviewing the data migration activity, the MOST important concern fbr the information systems (IS) auditor is\nto determine that there is a:",
+      "options": {
+        "A": "correlation of semantic characteristics of the data migrated between the two systems.",
+        "B": "correlation of arithmetic characteristics of the data migrated between the two systems.",
+        "C": "correlation of functional characteristics of the processes between the two systems.",
+        "D": "relative efficiency of the processes between the two systems."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Because the two systems can have a different data representation, including the database schema,\nthe information systems (IS) auditor's main concern should be to verify that the interpretation of\nthe data (structure) is the same in the new system as it was in the old system.",
+        "B": "Arithmetic characteristics represent aspects of data structure and internal definition in the database and,\ntherefore, are less important than the semantic characteristics.",
+        "C": "A review of the correlation of the functional characteristics between the two systems is not relevant to a\ndata migration review.",
+        "D": "A review of the relative efficiencies of the processes between the two systems is not relevant to a data\nmigration review."
+      },
+      "page": 55
+    },
+    {
+      "number": 113,
+      "question": "Normally, it is essential to involve which of the following stakeholders in the initiation stage of a project?",
+      "options": {
+        "A": "System owners",
+        "B": "System users",
+        "C": "System designers",
+        "D": "System builders"
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "System owners are the information systems (project) sponsors or chief advocates. They normally\nare responsible fbr initiating and funding projects to develop, operate and maintain information\nsystems.",
+        "B": "System users are the individuals who use or are affected by the information system. Their requirements\nare crucial in the requirements definition, design and testing stages of a project.",
+        "C": "System designers translate business requirements and constraints into technical solutions.",
+        "D": "System builders construct the system based on the specifications from the systems designers. In most\ncases, the designers and builders are the same personnel.\n236 CISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 55
+    },
+    {
+      "number": 114,
+      "question": "A project manager fbr a project that is scheduled to take 18 months to complete announces that the project\nis in a healthy financial position because, after six months, only one-sixth of the budget has been spent. The\ninformation systems (IS) auditor should FIRST determine:",
+      "options": {
+        "A": "the amount of progress achieved compared to the project schedule.",
+        "B": "if the project budget can be reduced.",
+        "C": "if the project can be completed ahead of schedule.",
+        "D": "if the budget savings can be applied to increase the project scope."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Cost performance of a project cannot be properly assessed in isolation of schedule performance.\nCost cannot be assessed simply in terms of elapsed time on a project",
+        "B": "To properly assess the project budget position, it is necessary to know how much progress has actually\nbeen made and, given this, what level of expenditure would be expected. It is possible that project\nexpenditure appears to be low because actual progress has been slow. Until the analysis of project against\nschedule has been completed, it is impossible to know whether there is any reason to reduce budget. If\nthe project has slipped behind schedule, then it is possible that not only there is no spare budget, but also\nextra expenditure may be needed to retrieve the slippage. The low expenditure can be representative of a\nsituation where the project is likely to miss deadlines rather than potentially come in ahead of time.",
+        "C": "If the project is found to be ahead of budget after adjusting fbr actual progress, this is not necessarily a\ngood outcome, because it points to flaws in the original budgeting process; and, until further analysis is\nundertaken, it cannot be determined whether any spare funds actually exist.",
+        "D": "If the project is behind schedule, adding scope may be the wrong thing to do."
+      },
+      "page": 56
+    },
+    {
+      "number": 115,
+      "question": "The MAJOR advantage of a component-based development approach is the:",
+      "options": {
+        "A": "ability to manage an unrestricted variety of data types.",
+        "B": "provision for modeling complex relationships.",
+        "C": "capacity to meet the demands of a changing environment.",
+        "D": "support of multiple development environments."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "The data types must be defined within each component, and there is no certainty that any component will\nbe able to handle multiple data types.",
+        "B": "Component-based development is no better than many other development methods at modeling complex\nrelationships.",
+        "C": "Component-based development is one of the methodologies that can be effective at meeting changing\nrequirements, but this is not its primary benefit or purpose.",
+        "D": "Component-based development that relies on reusable modules can increase the speed of\ndevelopment Software developers can then focus on business logic.\n237\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 56
+    },
+    {
+      "number": 116,
+      "question": "The specific advantage of white box testing is that it:",
+      "options": {
+        "A": "verifies that a program can operate successfully with other parts of the system.",
+        "B": "ensures a program's functional operating effectiveness without regard to the internal program structure.",
+        "C": "determines procedural accuracy or conditions of a program's specific logic paths.",
+        "D": "examines a program's functionality by executing it in a tightly controlled or virtual environment with"
+      },
+      "correct_answer": "C",
+      "justifications": {
+        "A": "Verifying that the program can operate successfully with other parts of the system is sociability testing.",
+        "B": "Testing the program's functionality without knowledge of internal structures is black box testing.",
+        "C": "White box testing assesses the effectiveness of software program logic. Specifically, test data are\nused in determining procedural accuracy or conditions of a program's logic paths.",
+        "D": "Controlled testing of programs in a semidebugged environment, either heavily controlled step-by-step or\nvia monitoring in virtual machines, is sandbox testing."
+      },
+      "page": 57
+    },
+    {
+      "number": 117,
+      "question": "Following good practices, formal plans for implementation of new information systems are developed during\nthe:",
+      "options": {
+        "A": "development phase.",
+        "B": "design phase.",
+        "C": "testing phase.",
+        "D": "deployment phase."
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "The implementation plans are updated during the development of the system, but the plans were already\naddressed during the design phase.",
+        "B": "The method of implementation may affect the design of the system. Therefore, planning for\nimplementation should begin well in advance of the actual implementation date. A formal\nimplementation plan should be constructed in the design phase and revised as the development\nprogresses.",
+        "C": "The testing phase focuses on testing the system and is not concerned with implementation planning.",
+        "D": "The deployment phase implements the system according to the plans set out earlier in the design phase.\n238 CISA ® Official Questions, Answers & Explanations Manuall3th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 57
+    },
+    {
+      "number": 118,
+      "question": "An information systems (IS) auditor is reviewing a project that is using an agile software development\napproach. Which of the following should the IS auditor expect to find?",
+      "options": {
+        "A": "Use of a capability maturity model (CMM).",
+        "B": "Regular monitoring of task-level progress against schedule.",
+        "C": "Extensive use of software development tools to maximize team productivity.",
+        "D": "Post-iteration reviews that identify lessons learned for future use in the project."
+      },
+      "correct_answer": "D",
+      "justifications": {
+        "A": "The capability maturity model (CMM) places heavy emphasis on predefined formal processes and formal\nproject-management and software-development deliverables. Agile software development projects, by\ncontrast, rely on refinement of process as dictated by the particular needs of the project and team\ndynamics.",
+        "B": "Task-level tracking is not used because daily meetings identify challenges and impediments to the project.",
+        "C": "Agile projects make use of suitable development tools; however, tools are not seen as the primary\nmeans of achieving productivity. Team harmony, effective communications and collective ability to solve\nchallenges are of greater importance.",
+        "D": "A key tenet of the agile approach to software project management is ongoing team learning to\nrefine project management and software development processes as the project progresses. The team\nconsiders and documents what worked well and what could have worked better at the end of each\niteration and identifies improvements to be implemented in subsequent iterations. Additionally,\nless importance is placed on formal paper-based deliverables, with the preference being effective\ninformal communication within the team and with key outside contributors. Agile projects produce\nreleasable software in short iterations, typically ranging from fbur-to-eight weeks, which instills\nconsiderable performance discipline within the team. These practices, combined with short daily\nmeetings to agree on what the team is doing and the identification of any impediments, render\ntask-level tracking against a schedule redundant.\n239\nCISA ® Official Questions, Answers & Explanations Manuall3th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 58
+    },
+    {
+      "number": 119,
+      "question": "An organization sells books and music online on its secure website. Transactions are transferred to the\naccounting and delivery systems every hour to be processed. Which of the following controls BEST ensures\nthat sales processed on the secure website are transferred to both systems?",
+      "options": {
+        "A": "Transaction totals are recorded daily in the sales systems. Daily sales system totals are aggregated and\ntotaled.",
+        "B": "Transactions are automatically numerically sequenced. Sequences are checked and gaps in continuity are\naccounted fbr.",
+        "C": "Processing systems check fbr duplicated transaction numbers. If a transaction number is duplicated\n(already present), it is rejected.",
+        "D": "System time is synchronized hourly using a centralized time server. All transactions have a date/time"
+      },
+      "correct_answer": "B",
+      "justifications": {
+        "A": "Totaling transactions on the sales system does not address the transfer of data from the online systems to\nthe accounting system, but rather considers only the sales system.",
+        "B": "Automatic numerical sequencing is the only option that accounts fbr completeness of transactions\nbecause any missing transactions are identified by a gap.",
+        "C": "Checking fbr duplicates is a valid control; however, it does not address whether the sales transactions\nprocessed are complete (ensuring that all transactions are recorded).",
+        "D": "A date/time stamp does not help account for transactions that are missing or incomplete in the accounting\nand delivery systems.\n240 CISA ® Official Questions, Answers & Explanations Manua!13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 59
+    },
+	{
+	  "number": 44,
+	  "question": "Which of the following is the MOST important factor in the design of a data warehouse?",
+	  "options": {
+		"A": "Quality of the metadata",
+		"B": "Speed of the transactions",
+		"C": "Volatility of the data",
+		"D": "Vulnerability of the system"
+	  },
+	  "correct_answer": "A",
+	  "justifications": {
+		"A": "Quality of the metadata is the most important element in the design of a data warehouse. A data warehouse is a copy of transaction data specifically structured for query and analysis. Metadata describes the data in the warehouse and aims to provide a table of contents to the stored information. Organizations that have built warehouses believe that metadata are the most important component of the warehouse.",
+		"B": "A data warehouse is used for analysis and research, not for production operations, so the speed of transactions is not relevant.",
+		"C": "Data in a data warehouse are frequently received from many sources and vast amounts of information may be received on an hourly or daily basis. Except to ensure adequate storage capability, this is not a primary concern of the designer.",
+		"D": "Data warehouses may contain sensitive information or can be used to research sensitive information, so the security of the data warehouse is important. However, this is not the primary concern of the designer."
+	  },
+	  "page": 28
+	},
+	{
+	  "number": 72,
+	  "question": "At the end of the testing phase of software development, an information systems (IS) auditor observes that an intermittent software error has not been corrected. No action has been taken to resolve the error. The IS auditor should:",
+	  "options": {
+		"A": "report the error as a finding and leave further exploration to the auditee's discretion.",
+		"B": "attempt to resolve the error.",
+		"C": "recommend that problem resolution be escalated.",
+		"D": "ignore the error because it is not possible to get objective evidence for the software error."
+	  },
+	  "correct_answer": "C",
+	  "justifications": {
+		"A": "Recording it as a minor error and leaving it to the auditee's discretion is inappropriate. Action should be taken before the application goes into production.",
+		"B": "The information systems (IS) auditor is not authorized to resolve the error.",
+		"C": "When an IS auditor observes such conditions, it is best to fully apprise the auditee and suggest that further problem resolutions be attempted, including escalation if necessary.",
+		"D": "Neglecting the error indicates that the IS auditor has not taken steps to further probe the issue to its logical end."
+	  },
+	  "page": 28
+	},
+    {
+      "number": 120,
+      "question": "An enterprise is developing a new procurement system that is behind schedule. As a result, the time originally\nplanned fbr the test phase is proposed to be shortened. The project manager asks the information systems (IS)\nauditor fbr recommendations to mitigate the risk associated with reduced testing. Which of the following is a\nsuitable risk mitigation strategy?",
+      "options": {
+        "A": "Test and release a pilot with reduced functionality.",
+        "B": "Fix and retest the highest-severity functional defects.",
+        "C": "Eliminate planned testing by the development team and proceed straight to acceptance testing.",
+        "D": "Implement a test tool to automate defect tracking."
+      },
+      "correct_answer": "A",
+      "justifications": {
+        "A": "Testing and releasing a pilot with reduced functionality reduces risk in several ways. Reduced\nfunctionality should result in fewer test cases to run, fewer defects to fix and retest and less\nregression testing. A pilot release that is made available to a select group of users will reduce the\nrisk associated with a full implementation. All of the benefits of releasing the system to the full user\npopulation will not be realized, but some benefits should start to be realized. Additionally, some\nuseful comments from real users should be obtained to guide what extra functionality and other\nimprovements need to be included in an entire release.",
+        "B": "When testing starts, a significant number of defects are likely to exist. Focusing only on the highest-\nseverity functional defects has the risk that other important aspects, such as usability problems and\nnonfunctional performance and security requirements, will be ignored. The system may go live, but users\nmay struggle to use the system as intended to realize business benefits.",
+        "C": "Eliminating testing by development is not a good solution. Before system acceptance testing begins, some\nprior testing should occur to establish that the system is ready to proceed to acceptance evaluation. If prior\ntesting by development does not occur, there is a considerable risk that the software will have a significant\nnumber of low-level defects, such as transactions that cause the system to hang and unintelligible error\nmessages. These defects can prove frustrating for users or testers tasked with acceptance testing and,\nultimately, can cause the overall test time to increase rather than decrease.",
+        "D": "The use of a defect tracking tool can help in improving test efficiency, but it does not address the\nfundamental risk caused by reducing the testing effort on a system in which quality is uncertain. Given\nthe build problems experienced, there is reason to suspect that quality problems can exist.\n241\nCISA ® Official Questions, Answers & Explanations Manual 13th Edition\n©ISACA. All Rights Reserved."
+      },
+      "page": 60
+    }
+  ]
+}

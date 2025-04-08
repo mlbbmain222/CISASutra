@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Select Quiz Domain</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+      .domain-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      }
+      .domain-option {
+        display: block;
+        padding: 1rem 1.5rem;
+        margin-bottom: 0.8rem;
+        border: 2px solid #e9ecef;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        background-color: #f8f9fa;
+      }
+      .domain-option:hover {
+        background-color: #e9ecef;
+        transform: translateY(-2px);
+      }
+      .form-check-input:checked + .domain-option {
+        background-color: #e7f5ff;
+        border-color: #86b7fe;
+        box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.25);
+      }
+      .start-btn {
+        padding: 0.6rem 2.5rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="container py-5">
+      <div class="domain-container">
+        <h2 class="text-center mb-4">Select a Domain for the Quiz</h2>
+        <p class="text-muted text-center mb-4">Choose your topic to begin the challenge</p>
+        
+        <form method="post" action="{{ url_for('set_domain') }}">
+          <div class="form-check mb-3">
+            <input class="form-check-input visually-hidden" type="radio" name="domain" id="domain1" value="Domain 1.json" required>
+            <label class="domain-option" for="domain1">
+              <span class="fw-semibold">Domain 1</span>
+            </label>
+          </div>
+          
+          <div class="form-check mb-3">
+            <input class="form-check-input visually-hidden" type="radio" name="domain" id="domain2" value="Domain 2.json">
+            <label class="domain-option" for="domain2">
+              <span class="fw-semibold">Domain 2</span>
+            </label>
+          </div>
+          
+          <div class="form-check mb-3">
+            <input class="form-check-input visually-hidden" type="radio" name="domain" id="domain3" value="Domain 3.json">
+            <label class="domain-option" for="domain3">
+              <span class="fw-semibold">Domain 3</span>
+            </label>
+          </div>
+          
+          <div class="form-check mb-3">
+            <input class="form-check-input visually-hidden" type="radio" name="domain" id="domain4" value="Domain 4.json">
+            <label class="domain-option" for="domain4">
+              <span class="fw-semibold">Domain 4</span>
+            </label>
+          </div>
+          
+          <div class="form-check mb-4">
+            <input class="form-check-input visually-hidden" type="radio" name="domain" id="domain5" value="Domain 5.json">
+            <label class="domain-option" for="domain5">
+              <span class="fw-semibold">Domain 5</span>
+            </label>
+          </div>
+          
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary start-btn">
+              <i class="bi bi-play-fill me-2"></i> Start Quiz
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

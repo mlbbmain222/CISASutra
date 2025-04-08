@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz Question {{ q_num }} of {{ total }}</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+      .quiz-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      }
+      .question-text {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        color: #343a40;
+      }
+      .option-label {
+        display: block;
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 0.5rem;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        transition: all 0.3s;
+        cursor: pointer;
+      }
+      .option-label:hover {
+        background-color: #e9ecef;
+      }
+      .form-check-input:checked + .option-label {
+        background-color: #e7f5ff;
+        border-color: #86b7fe;
+      }
+      .progress {
+        height: 8px;
+        margin-bottom: 2rem;
+      }
+      .submit-btn {
+        padding: 0.5rem 2rem;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="container py-5">
+      <div class="quiz-container bg-white">
+        <!-- Progress bar -->
+        <div class="progress">
+          <div class="progress-bar bg-primary" role="progressbar" 
+               style="width: {{ (q_num/total)*100 }}%" 
+               aria-valuenow="{{ q_num }}" 
+               aria-valuemin="1" 
+               aria-valuemax="{{ total }}">
+          </div>
+        </div>
+        
+        <h2 class="mb-4">Question {{ q_num }} of {{ total }}</h2>
+        
+        <p class="question-text fw-semibold">{{ question.question }}</p>
+        
+        <form method="post" action="{{ url_for('submit') }}">
+          <div class="form-check mb-3">
+            <input class="form-check-input visually-hidden" type="radio" name="option" id="optionA" value="A" required>
+            <label class="option-label" for="optionA">
+              <strong>A.</strong> {{ question.options.A }}
+            </label>
+          </div>
+          
+          <div class="form-check mb-3">
+            <input class="form-check-input visually-hidden" type="radio" name="option" id="optionB" value="B">
+            <label class="option-label" for="optionB">
+              <strong>B.</strong> {{ question.options.B }}
+            </label>
+          </div>
+          
+          <div class="form-check mb-3">
+            <input class="form-check-input visually-hidden" type="radio" name="option" id="optionC" value="C">
+            <label class="option-label" for="optionC">
+              <strong>C.</strong> {{ question.options.C }}
+            </label>
+          </div>
+          
+          <div class="form-check mb-4">
+            <input class="form-check-input visually-hidden" type="radio" name="option" id="optionD" value="D">
+            <label class="option-label" for="optionD">
+              <strong>D.</strong> {{ question.options.D }}
+            </label>
+          </div>
+          
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary submit-btn">Submit Answer</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
