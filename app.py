@@ -16,7 +16,7 @@ def get_current_questions():
     domain = session.get('domain')
     if not domain:
         return []
-    json_path = os.path.join('question', domain)
+    json_path = os.path.join(os.getcwd(), 'question', domain)
     return load_questions(json_path)
 
 @app.route('/')
