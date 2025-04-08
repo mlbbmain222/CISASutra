@@ -4,7 +4,7 @@ import os
 import random
 
 app = Flask(__name__)
-app.secret_key = 'supersecretkey'  # Replace with a secure key for production
+app.secret_key = os.environ.get('SECRET_KEY', 'fallback-key-for-dev')
 
 def load_questions(json_filename):
     with open(json_filename, 'r', encoding='utf-8') as f:
