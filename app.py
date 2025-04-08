@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 import json
 import os
+import random
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'  # Replace with a secure key for production
@@ -17,7 +18,12 @@ def get_current_questions():
     if not domain:
         return []
     json_path = os.path.join(os.getcwd(), 'question', domain)
-    return load_questions(json_path)
+    questions = load_questions(json_path)
+    if 'shuffled_questions' not in session:
+        shuffled = questions.copy()
+        random.shuffle(shuffled)
+        session['shuffled_questions'] = shuffled
+    return session.get('shuffled_questions', [])
 
 @app.route('/')
 def select():
